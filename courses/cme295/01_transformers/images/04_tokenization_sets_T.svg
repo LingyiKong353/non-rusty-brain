@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 270" width="900" height="270" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif">
+<defs><linearGradient id="gA" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff9e6"/><stop offset="1" stop-color="#ffefc2"/></linearGradient><linearGradient id="gP" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f6f3ff"/><stop offset="1" stop-color="#e6defa"/></linearGradient><filter id="sh" x="-10%" y="-10%" width="120%" height="130%"><feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#0f172a" flood-opacity="0.12"/></filter></defs>
+<rect x="1" y="1" width="898" height="268" rx="22" fill="#fcfcfd" stroke="#e2e8f0" stroke-width="2"/>
+<rect x="20" y="14" width="860" height="112" rx="20" fill="url(#gA)" stroke="#f2c261" stroke-width="1.5"/>
+<rect x="38" y="26" width="173" height="30" rx="15" fill="#ffe7a3"/>
+<text x="124" y="46" text-anchor="middle" font-size="14" font-weight="700" fill="#92400e">Word-level split</text>
+<rect x="40" y="72" width="100" height="40" rx="10" fill="#fff" stroke="#e8820c" stroke-width="1.8" filter="url(#sh)"/>
+<text x="90" y="98" text-anchor="middle" font-size="17" font-weight="700" fill="#0f172a" font-family="'SF Mono',Menlo,Consolas,monospace">The</text>
+<rect x="150" y="72" width="100" height="40" rx="10" fill="#fff" stroke="#e8820c" stroke-width="1.8" filter="url(#sh)"/>
+<text x="200" y="98" text-anchor="middle" font-size="17" font-weight="700" fill="#0f172a" font-family="'SF Mono',Menlo,Consolas,monospace">teddy</text>
+<rect x="260" y="72" width="100" height="40" rx="10" fill="#fff" stroke="#e8820c" stroke-width="1.8" filter="url(#sh)"/>
+<text x="310" y="98" text-anchor="middle" font-size="17" font-weight="700" fill="#0f172a" font-family="'SF Mono',Menlo,Consolas,monospace">bear</text>
+<rect x="660" y="52" width="200" height="64" rx="16" fill="url(#gP)" stroke="#c4b5fd" stroke-width="1.5"/>
+<text x="760" y="78" text-anchor="middle" font-size="19" font-weight="800" fill="#0f172a">T = 3</text>
+<text x="760" y="100" text-anchor="middle" font-size="14" fill="#475569" font-family="'SF Mono',Menlo,Consolas,monospace">X is 3 × d</text>
+<rect x="20" y="144" width="860" height="112" rx="20" fill="url(#gA)" stroke="#f2c261" stroke-width="1.5"/>
+<rect x="38" y="156" width="216" height="30" rx="15" fill="#ffe7a3"/>
+<text x="146" y="176" text-anchor="middle" font-size="14" font-weight="700" fill="#92400e">Character-level split</text>
+<rect x="40" y="202" width="38" height="40" rx="10" fill="#fff" stroke="#e8820c" stroke-width="1.8" filter="url(#sh)"/>
+<text x="59" y="228" text-anchor="middle" font-size="16" font-weight="700" fill="#0f172a" font-family="'SF Mono',Menlo,Consolas,monospace">T</text>
+<rect x="82" y="202" width="38" height="40" rx="10" fill="#fff" stroke="#e8820c" stroke-width="1.8" filter="url(#sh)"/>
+<text x="101" y="228" text-anchor="middle" font-size="16" font-weight="700" fill="#0f172a" font-family="'SF Mono',Menlo,Consolas,monospace">h</text>
+<rect x="124" y="202" width="38" height="40" rx="10" fill="#fff" stroke="#e8820c" stroke-width="1.8" filter="url(#sh)"/>
+<text x="143" y="228" text-anchor="middle" font-size="16" font-weight="700" fill="#0f172a" font-family="'SF Mono',Menlo,Consolas,monospace">e</text>
+<rect x="166" y="202" width="38" height="40" rx="10" fill="#fff" stroke="#e8820c" stroke-width="1.8" filter="url(#sh)"/>
+<text x="185" y="228" text-anchor="middle" font-size="16" font-weight="700" fill="#94a3b8" font-family="'SF Mono',Menlo,Consolas,monospace">·</text>
+<rect x="208" y="202" width="38" height="40" rx="10" fill="#fff" stroke="#e8820c" stroke-width="1.8" filter="url(#sh)"/>
+<text x="227" y="228" text-anchor="middle" font-size="16" font-weight="700" fill="#0f172a" font-family="'SF Mono',Menlo,Consolas,monospace">t</text>
+<rect x="250" y="202" width="38" height="40" rx="10" fill="#fff" stroke="#e8820c" stroke-width="1.8" filter="url(#sh)"/>
+<text x="269" y="228" text-anchor="middle" font-size="16" font-weight="700" fill="#0f172a" font-family="'SF Mono',Menlo,Consolas,monospace">e</text>
+<rect x="292" y="202" width="38" height="40" rx="10" fill="#fff" stroke="#e8820c" stroke-width="1.8" filter="url(#sh)"/>
+<text x="311" y="228" text-anchor="middle" font-size="16" font-weight="700" fill="#0f172a" font-family="'SF Mono',Menlo,Consolas,monospace">d</text>
+<rect x="334" y="202" width="38" height="40" rx="10" fill="#fff" stroke="#e8820c" stroke-width="1.8" filter="url(#sh)"/>
+<text x="353" y="228" text-anchor="middle" font-size="16" font-weight="700" fill="#0f172a" font-family="'SF Mono',Menlo,Consolas,monospace">d</text>
+<rect x="376" y="202" width="38" height="40" rx="10" fill="#fff" stroke="#e8820c" stroke-width="1.8" filter="url(#sh)"/>
+<text x="395" y="228" text-anchor="middle" font-size="16" font-weight="700" fill="#0f172a" font-family="'SF Mono',Menlo,Consolas,monospace">y</text>
+<rect x="418" y="202" width="38" height="40" rx="10" fill="#fff" stroke="#e8820c" stroke-width="1.8" filter="url(#sh)"/>
+<text x="437" y="228" text-anchor="middle" font-size="16" font-weight="700" fill="#94a3b8" font-family="'SF Mono',Menlo,Consolas,monospace">·</text>
+<rect x="460" y="202" width="38" height="40" rx="10" fill="#fff" stroke="#e8820c" stroke-width="1.8" filter="url(#sh)"/>
+<text x="479" y="228" text-anchor="middle" font-size="16" font-weight="700" fill="#0f172a" font-family="'SF Mono',Menlo,Consolas,monospace">b</text>
+<rect x="502" y="202" width="38" height="40" rx="10" fill="#fff" stroke="#e8820c" stroke-width="1.8" filter="url(#sh)"/>
+<text x="521" y="228" text-anchor="middle" font-size="16" font-weight="700" fill="#0f172a" font-family="'SF Mono',Menlo,Consolas,monospace">e</text>
+<rect x="544" y="202" width="38" height="40" rx="10" fill="#fff" stroke="#e8820c" stroke-width="1.8" filter="url(#sh)"/>
+<text x="563" y="228" text-anchor="middle" font-size="16" font-weight="700" fill="#0f172a" font-family="'SF Mono',Menlo,Consolas,monospace">a</text>
+<rect x="586" y="202" width="38" height="40" rx="10" fill="#fff" stroke="#e8820c" stroke-width="1.8" filter="url(#sh)"/>
+<text x="605" y="228" text-anchor="middle" font-size="16" font-weight="700" fill="#0f172a" font-family="'SF Mono',Menlo,Consolas,monospace">r</text>
+<rect x="660" y="182" width="200" height="64" rx="16" fill="url(#gP)" stroke="#c4b5fd" stroke-width="1.5"/>
+<text x="760" y="208" text-anchor="middle" font-size="19" font-weight="800" fill="#0f172a">T = 14</text>
+<text x="760" y="230" text-anchor="middle" font-size="14" fill="#475569" font-family="'SF Mono',Menlo,Consolas,monospace">X is 14 × d</text>
+</svg>

@@ -1,11 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 690" width="760" height="690" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 730" width="760" height="730" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif">
 <defs>
 <marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#475569"/></marker>
 <filter id="sh" x="-10%" y="-10%" width="120%" height="130%"><feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#0f172a" flood-opacity="0.12"/></filter>
 <linearGradient id="gA" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff8e1"/><stop offset="1" stop-color="#ffefc2"/></linearGradient>
 <linearGradient id="gB" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#e8f7ec"/><stop offset="1" stop-color="#d4f0dc"/></linearGradient>
 </defs>
-<rect x="1" y="1" width="758" height="688" rx="22" fill="#fcfcfd" stroke="#e2e8f0" stroke-width="2"/>
+<rect x="1" y="1" width="758" height="728" rx="22" fill="#fcfcfd" stroke="#e2e8f0" stroke-width="2"/>
 <text x="380" y="40" text-anchor="middle" font-size="12" letter-spacing="2" fill="#64748b">INPUT TEXT</text>
 <rect x="250" y="54" width="260" height="48" rx="24" fill="#fff" stroke="#cbd5e1" filter="url(#sh)"/>
 <text x="380" y="86" text-anchor="middle" font-size="22" font-weight="700" fill="#0f172a">"The teddy bear"</text>
@@ -18,17 +18,34 @@
 <rect x="500" y="228" width="140" height="64" rx="14" fill="#fff" stroke="#e5c27a" filter="url(#sh)"/><text x="570" y="270" text-anchor="middle" font-size="30" font-weight="700" fill="#0f172a" font-family="'SF Mono',Menlo,Consolas,monospace">387</text><text x="570" y="320" text-anchor="middle" font-size="15" fill="#78350f" font-family="'SF Mono',Menlo,Consolas,monospace">"bear"</text>
 <text x="380" y="355" text-anchor="middle" font-size="12.5" font-style="italic" fill="#92400e">Illustrative IDs, not from a specific tokenizer</text>
 <line x1="380" y1="380" x2="380" y2="438" stroke="#475569" stroke-width="2.2" marker-end="url(#ah)"/><rect x="398" y="395" width="134" height="28" rx="14" fill="#fee2e2"/><text x="465" y="414" text-anchor="middle" font-size="14" font-weight="600" fill="#b91c1c">Embedding lookup</text>
-<rect x="40" y="452" width="680" height="210" rx="18" fill="url(#gB)" stroke="#7bc68f" stroke-width="1.5"/><text x="380" y="482" text-anchor="middle" font-size="12" letter-spacing="2" fill="#166534">DENSE VECTORS</text>
-<g filter="url(#sh)"><rect x="130" y="498" width="120" height="126" rx="12" fill="#fff" stroke="#94c9a2"/></g>
-<rect x="136" y="504" width="108" height="34" rx="8" fill="rgb(225,236,255)"/><text x="190" y="527" text-anchor="middle" font-size="17" font-weight="600" fill="#0f172a" font-family="'SF Mono',Menlo,Consolas,monospace">+0.2</text>
-<rect x="136" y="542" width="108" height="34" rx="8" fill="rgb(255,205,205)"/><text x="190" y="565" text-anchor="middle" font-size="17" font-weight="600" fill="#0f172a" font-family="'SF Mono',Menlo,Consolas,monospace">-0.4</text>
-<rect x="136" y="580" width="108" height="34" rx="8" fill="rgb(133,177,255)"/><text x="190" y="603" text-anchor="middle" font-size="17" font-weight="600" fill="#0f172a" font-family="'SF Mono',Menlo,Consolas,monospace">+0.8</text>
-<g filter="url(#sh)"><rect x="320" y="498" width="120" height="126" rx="12" fill="#fff" stroke="#94c9a2"/></g>
-<rect x="326" y="504" width="108" height="34" rx="8" fill="rgb(148,187,255)"/><text x="380" y="527" text-anchor="middle" font-size="17" font-weight="600" fill="#0f172a" font-family="'SF Mono',Menlo,Consolas,monospace">+0.7</text>
-<rect x="326" y="542" width="108" height="34" rx="8" fill="rgb(240,245,255)"/><text x="380" y="565" text-anchor="middle" font-size="17" font-weight="600" fill="#0f172a" font-family="'SF Mono',Menlo,Consolas,monospace">+0.1</text>
-<rect x="326" y="580" width="108" height="34" rx="8" fill="rgb(255,217,217)"/><text x="380" y="603" text-anchor="middle" font-size="17" font-weight="600" fill="#0f172a" font-family="'SF Mono',Menlo,Consolas,monospace">-0.3</text>
-<g filter="url(#sh)"><rect x="510" y="498" width="120" height="126" rx="12" fill="#fff" stroke="#94c9a2"/></g>
-<rect x="516" y="504" width="108" height="34" rx="8" fill="rgb(255,242,242)"/><text x="570" y="527" text-anchor="middle" font-size="17" font-weight="600" fill="#0f172a" font-family="'SF Mono',Menlo,Consolas,monospace">-0.1</text>
-<rect x="516" y="542" width="108" height="34" rx="8" fill="rgb(118,168,255)"/><text x="570" y="565" text-anchor="middle" font-size="17" font-weight="600" fill="#0f172a" font-family="'SF Mono',Menlo,Consolas,monospace">+0.9</text>
-<rect x="516" y="580" width="108" height="34" rx="8" fill="rgb(194,216,255)"/><text x="570" y="603" text-anchor="middle" font-size="17" font-weight="600" fill="#0f172a" font-family="'SF Mono',Menlo,Consolas,monospace">+0.4</text>
-<text x="380" y="650" text-anchor="middle" font-size="12.5" font-style="italic" fill="#166534">Illustrative 3-dimensional embeddings (blue = positive, red = negative)</text></svg>
+<rect x="40" y="452" width="680" height="250" rx="18" fill="url(#gB)" stroke="#7bc68f" stroke-width="1.5"/>
+<text x="380" y="482" text-anchor="middle" font-size="12" letter-spacing="2" fill="#166534">DENSE VECTORS</text>
+<g filter="url(#sh)"><rect x="130" y="498" width="120" height="164" rx="12" fill="#fff" stroke="#94c9a2"/></g>
+<rect x="136" y="504" width="108" height="34" rx="8" fill="rgb(240,245,255)"/>
+<text x="190" y="527" text-anchor="middle" font-size="17" font-weight="600" fill="#0f172a" font-family="'SF Mono',Menlo,Consolas,monospace">+0.1</text>
+<rect x="136" y="542" width="108" height="34" rx="8" fill="rgb(255,255,255)"/>
+<text x="190" y="565" text-anchor="middle" font-size="17" font-weight="600" fill="#0f172a" font-family="'SF Mono',Menlo,Consolas,monospace">+0.0</text>
+<rect x="136" y="580" width="108" height="34" rx="8" fill="rgb(209,226,255)"/>
+<text x="190" y="603" text-anchor="middle" font-size="17" font-weight="600" fill="#0f172a" font-family="'SF Mono',Menlo,Consolas,monospace">+0.3</text>
+<rect x="136" y="618" width="108" height="34" rx="8" fill="rgb(255,242,242)"/>
+<text x="190" y="641" text-anchor="middle" font-size="17" font-weight="600" fill="#0f172a" font-family="'SF Mono',Menlo,Consolas,monospace">-0.1</text>
+<g filter="url(#sh)"><rect x="320" y="498" width="120" height="164" rx="12" fill="#fff" stroke="#94c9a2"/></g>
+<rect x="326" y="504" width="108" height="34" rx="8" fill="rgb(148,187,255)"/>
+<text x="380" y="527" text-anchor="middle" font-size="17" font-weight="600" fill="#0f172a" font-family="'SF Mono',Menlo,Consolas,monospace">+0.7</text>
+<rect x="326" y="542" width="108" height="34" rx="8" fill="rgb(240,245,255)"/>
+<text x="380" y="565" text-anchor="middle" font-size="17" font-weight="600" fill="#0f172a" font-family="'SF Mono',Menlo,Consolas,monospace">+0.1</text>
+<rect x="326" y="580" width="108" height="34" rx="8" fill="rgb(255,217,217)"/>
+<text x="380" y="603" text-anchor="middle" font-size="17" font-weight="600" fill="#0f172a" font-family="'SF Mono',Menlo,Consolas,monospace">-0.3</text>
+<rect x="326" y="618" width="108" height="34" rx="8" fill="rgb(133,178,255)"/>
+<text x="380" y="641" text-anchor="middle" font-size="17" font-weight="600" fill="#0f172a" font-family="'SF Mono',Menlo,Consolas,monospace">+0.8</text>
+<g filter="url(#sh)"><rect x="510" y="498" width="120" height="164" rx="12" fill="#fff" stroke="#94c9a2"/></g>
+<rect x="516" y="504" width="108" height="34" rx="8" fill="rgb(255,242,242)"/>
+<text x="570" y="527" text-anchor="middle" font-size="17" font-weight="600" fill="#0f172a" font-family="'SF Mono',Menlo,Consolas,monospace">-0.1</text>
+<rect x="516" y="542" width="108" height="34" rx="8" fill="rgb(118,168,255)"/>
+<text x="570" y="565" text-anchor="middle" font-size="17" font-weight="600" fill="#0f172a" font-family="'SF Mono',Menlo,Consolas,monospace">+0.9</text>
+<rect x="516" y="580" width="108" height="34" rx="8" fill="rgb(194,216,255)"/>
+<text x="570" y="603" text-anchor="middle" font-size="17" font-weight="600" fill="#0f172a" font-family="'SF Mono',Menlo,Consolas,monospace">+0.4</text>
+<rect x="516" y="618" width="108" height="34" rx="8" fill="rgb(225,236,255)"/>
+<text x="570" y="641" text-anchor="middle" font-size="17" font-weight="600" fill="#0f172a" font-family="'SF Mono',Menlo,Consolas,monospace">+0.2</text>
+<text x="380" y="688" text-anchor="middle" font-size="12.5" font-style="italic" fill="#166534">Illustrative 4-dimensional embeddings (blue = positive, red = negative)</text>
+</svg>
