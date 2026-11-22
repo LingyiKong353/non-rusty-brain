@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 420" width="860" height="420" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif">
+<defs><marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#475569"/></marker><linearGradient id="gG" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#eaf8ee"/><stop offset="1" stop-color="#d9f1e0"/></linearGradient><linearGradient id="gA" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff9e6"/><stop offset="1" stop-color="#ffefc2"/></linearGradient><linearGradient id="gS" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f8fafc"/><stop offset="1" stop-color="#eef2f6"/></linearGradient><filter id="sh" x="-10%" y="-10%" width="120%" height="130%"><feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#0f172a" flood-opacity="0.12"/></filter></defs>
+<rect x="1" y="1" width="858" height="418" rx="22" fill="#fcfcfd" stroke="#e2e8f0" stroke-width="2"/>
+<rect x="20" y="14" width="820" height="64" rx="18" fill="url(#gA)" stroke="#f2c261" stroke-width="1.5"/>
+<text x="40" y="52" font-size="14" font-weight="700" fill="#92400e">All 6 tokens are known from the start</text>
+<rect x="330" y="30" width="74" height="32" rx="10" fill="#fff" stroke="#f2c261" stroke-width="1.6" filter="url(#sh)"/>
+<text x="367" y="51" text-anchor="middle" font-size="15" font-weight="700" fill="#0f172a">A</text>
+<rect x="414" y="30" width="74" height="32" rx="10" fill="#fff" stroke="#f2c261" stroke-width="1.6" filter="url(#sh)"/>
+<text x="451" y="51" text-anchor="middle" font-size="15" font-weight="700" fill="#0f172a">cute</text>
+<rect x="498" y="30" width="74" height="32" rx="10" fill="#fff" stroke="#f2c261" stroke-width="1.6" filter="url(#sh)"/>
+<text x="535" y="51" text-anchor="middle" font-size="15" font-weight="700" fill="#0f172a">teddy</text>
+<rect x="582" y="30" width="74" height="32" rx="10" fill="#fff" stroke="#f2c261" stroke-width="1.6" filter="url(#sh)"/>
+<text x="619" y="51" text-anchor="middle" font-size="15" font-weight="700" fill="#0f172a">bear</text>
+<rect x="666" y="30" width="74" height="32" rx="10" fill="#fff" stroke="#f2c261" stroke-width="1.6" filter="url(#sh)"/>
+<text x="703" y="51" text-anchor="middle" font-size="15" font-weight="700" fill="#0f172a">is</text>
+<rect x="750" y="30" width="74" height="32" rx="10" fill="#fff" stroke="#f2c261" stroke-width="1.6" filter="url(#sh)"/>
+<text x="787" y="51" text-anchor="middle" font-size="15" font-weight="700" fill="#0f172a">reading</text>
+<rect x="20" y="96" width="560" height="308" rx="20" fill="url(#gG)" stroke="#8fd0a0" stroke-width="1.5"/>
+<rect x="36" y="108" width="361" height="30" rx="15" fill="#cdeed6"/>
+<text x="216" y="128" text-anchor="middle" font-size="14" font-weight="700" fill="#166534">RNN: each step waits for the one before</text>
+<text x="132" y="177" text-anchor="end" font-size="13" fill="#475569">step 1 · A</text>
+<rect x="150" y="161" width="56" height="24" rx="8" fill="#fff" stroke="#7bc68f" stroke-width="1.8" filter="url(#sh)"/>
+<text x="178" y="178" text-anchor="middle" font-size="14" font-weight="700" fill="#166534">h<tspan dy="4" font-size="10">1</tspan></text>
+<path d="M208,173 H244 V189" fill="none" stroke="#475569" stroke-width="2" marker-end="url(#ah)"/>
+<text x="132" y="207" text-anchor="end" font-size="13" fill="#475569">step 2 · cute</text>
+<rect x="216" y="191" width="56" height="24" rx="8" fill="#fff" stroke="#7bc68f" stroke-width="1.8" filter="url(#sh)"/>
+<text x="244" y="208" text-anchor="middle" font-size="14" font-weight="700" fill="#166534">h<tspan dy="4" font-size="10">2</tspan></text>
+<path d="M274,203 H310 V219" fill="none" stroke="#475569" stroke-width="2" marker-end="url(#ah)"/>
+<text x="132" y="237" text-anchor="end" font-size="13" fill="#475569">step 3 · teddy</text>
+<rect x="282" y="221" width="56" height="24" rx="8" fill="#fff" stroke="#7bc68f" stroke-width="1.8" filter="url(#sh)"/>
+<text x="310" y="238" text-anchor="middle" font-size="14" font-weight="700" fill="#166534">h<tspan dy="4" font-size="10">3</tspan></text>
+<path d="M340,233 H376 V249" fill="none" stroke="#475569" stroke-width="2" marker-end="url(#ah)"/>
+<text x="132" y="267" text-anchor="end" font-size="13" fill="#475569">step 4 · bear</text>
+<rect x="348" y="251" width="56" height="24" rx="8" fill="#fff" stroke="#7bc68f" stroke-width="1.8" filter="url(#sh)"/>
+<text x="376" y="268" text-anchor="middle" font-size="14" font-weight="700" fill="#166534">h<tspan dy="4" font-size="10">4</tspan></text>
+<path d="M406,263 H442 V279" fill="none" stroke="#475569" stroke-width="2" marker-end="url(#ah)"/>
+<text x="132" y="297" text-anchor="end" font-size="13" fill="#475569">step 5 · is</text>
+<rect x="414" y="281" width="56" height="24" rx="8" fill="#fff" stroke="#7bc68f" stroke-width="1.8" filter="url(#sh)"/>
+<text x="442" y="298" text-anchor="middle" font-size="14" font-weight="700" fill="#166534">h<tspan dy="4" font-size="10">5</tspan></text>
+<path d="M472,293 H508 V309" fill="none" stroke="#475569" stroke-width="2" marker-end="url(#ah)"/>
+<text x="132" y="327" text-anchor="end" font-size="13" fill="#475569">step 6 · reading</text>
+<rect x="480" y="311" width="56" height="24" rx="8" fill="#fff" stroke="#7bc68f" stroke-width="1.8" filter="url(#sh)"/>
+<text x="508" y="328" text-anchor="middle" font-size="14" font-weight="700" fill="#166534">h<tspan dy="4" font-size="10">6</tspan></text>
+<line x1="150" y1="352" x2="556" y2="352" stroke="#475569" stroke-width="2" marker-end="url(#ah)"/>
+<text x="178" y="370" text-anchor="middle" font-size="12" fill="#475569" font-family="'SF Mono',Menlo,Consolas,monospace">1</text>
+<text x="244" y="370" text-anchor="middle" font-size="12" fill="#475569" font-family="'SF Mono',Menlo,Consolas,monospace">2</text>
+<text x="310" y="370" text-anchor="middle" font-size="12" fill="#475569" font-family="'SF Mono',Menlo,Consolas,monospace">3</text>
+<text x="376" y="370" text-anchor="middle" font-size="12" fill="#475569" font-family="'SF Mono',Menlo,Consolas,monospace">4</text>
+<text x="442" y="370" text-anchor="middle" font-size="12" fill="#475569" font-family="'SF Mono',Menlo,Consolas,monospace">5</text>
+<text x="508" y="370" text-anchor="middle" font-size="12" fill="#475569" font-family="'SF Mono',Menlo,Consolas,monospace">6</text>
+<text x="138" y="356" text-anchor="end" font-size="12.5" font-weight="600" fill="#475569">time slot</text>
+<text x="348" y="396" text-anchor="middle" font-size="14" font-weight="700" fill="#166534">6 time slots</text>
+<rect x="600" y="96" width="240" height="308" rx="20" fill="url(#gS)" stroke="#cbd5e1" stroke-width="1.5"/>
+<rect x="616" y="108" width="176" height="30" rx="15" fill="#e2e8f0"/>
+<text x="704" y="128" text-anchor="middle" font-size="14" font-weight="700" fill="#475569">Independent steps</text>
+<text x="686" y="177" text-anchor="end" font-size="13" fill="#475569">step 1</text>
+<rect x="700" y="161" width="56" height="24" rx="8" fill="#fff" stroke="#94a3b8" stroke-width="1.8" filter="url(#sh)"/>
+<text x="728" y="178" text-anchor="middle" font-size="14" font-weight="700" fill="#334155">h<tspan dy="4" font-size="10">1</tspan></text>
+<text x="686" y="207" text-anchor="end" font-size="13" fill="#475569">step 2</text>
+<rect x="700" y="191" width="56" height="24" rx="8" fill="#fff" stroke="#94a3b8" stroke-width="1.8" filter="url(#sh)"/>
+<text x="728" y="208" text-anchor="middle" font-size="14" font-weight="700" fill="#334155">h<tspan dy="4" font-size="10">2</tspan></text>
+<text x="686" y="237" text-anchor="end" font-size="13" fill="#475569">step 3</text>
+<rect x="700" y="221" width="56" height="24" rx="8" fill="#fff" stroke="#94a3b8" stroke-width="1.8" filter="url(#sh)"/>
+<text x="728" y="238" text-anchor="middle" font-size="14" font-weight="700" fill="#334155">h<tspan dy="4" font-size="10">3</tspan></text>
+<text x="686" y="267" text-anchor="end" font-size="13" fill="#475569">step 4</text>
+<rect x="700" y="251" width="56" height="24" rx="8" fill="#fff" stroke="#94a3b8" stroke-width="1.8" filter="url(#sh)"/>
+<text x="728" y="268" text-anchor="middle" font-size="14" font-weight="700" fill="#334155">h<tspan dy="4" font-size="10">4</tspan></text>
+<text x="686" y="297" text-anchor="end" font-size="13" fill="#475569">step 5</text>
+<rect x="700" y="281" width="56" height="24" rx="8" fill="#fff" stroke="#94a3b8" stroke-width="1.8" filter="url(#sh)"/>
+<text x="728" y="298" text-anchor="middle" font-size="14" font-weight="700" fill="#334155">h<tspan dy="4" font-size="10">5</tspan></text>
+<text x="686" y="327" text-anchor="end" font-size="13" fill="#475569">step 6</text>
+<rect x="700" y="311" width="56" height="24" rx="8" fill="#fff" stroke="#94a3b8" stroke-width="1.8" filter="url(#sh)"/>
+<text x="728" y="328" text-anchor="middle" font-size="14" font-weight="700" fill="#334155">h<tspan dy="4" font-size="10">6</tspan></text>
+<line x1="694" y1="352" x2="800" y2="352" stroke="#475569" stroke-width="2" marker-end="url(#ah)"/>
+<text x="728" y="370" text-anchor="middle" font-size="12" fill="#475569" font-family="'SF Mono',Menlo,Consolas,monospace">1</text>
+<text x="728" y="396" text-anchor="middle" font-size="14" font-weight="700" fill="#475569">1 time slot</text>
+</svg>

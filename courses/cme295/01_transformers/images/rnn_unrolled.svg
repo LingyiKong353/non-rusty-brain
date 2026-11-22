@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 400" width="880" height="400" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif">
+<defs><marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#475569"/></marker><marker id="ap" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#6d28d9"/></marker><linearGradient id="gG" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#eaf8ee"/><stop offset="1" stop-color="#d4f0dc"/></linearGradient><linearGradient id="gA" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff9e6"/><stop offset="1" stop-color="#ffefc2"/></linearGradient><linearGradient id="gP" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f6f3ff"/><stop offset="1" stop-color="#e6defa"/></linearGradient><filter id="sh" x="-10%" y="-10%" width="120%" height="130%"><feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#0f172a" flood-opacity="0.12"/></filter></defs>
+<rect x="1" y="1" width="878" height="398" rx="22" fill="#fcfcfd" stroke="#e2e8f0" stroke-width="2"/>
+<text x="24" y="97" font-size="14" font-weight="700" fill="#6d28d9">Hidden state</text>
+<text x="24" y="195" font-size="14" font-weight="700" fill="#166534">RNN cell</text>
+<text x="24" y="311" font-size="14" font-weight="700" fill="#92400e">Input tokens</text>
+<rect x="143" y="173" width="52" height="34" rx="17" fill="url(#gP)" stroke="#c4b5fd" stroke-width="1.5"/>
+<text x="169" y="195" text-anchor="middle" font-size="15" font-weight="700" fill="#0f172a">h<tspan dy="4" font-size="10">0</tspan></text>
+<line x1="197" y1="190" x2="215" y2="190" stroke="#6d28d9" stroke-width="2.2" marker-end="url(#ap)"/>
+<rect x="212" y="286" width="86" height="40" rx="12" fill="url(#gA)" stroke="#f2c261" stroke-width="1.5" filter="url(#sh)"/>
+<text x="255" y="312" text-anchor="middle" font-size="17" font-weight="700" fill="#0f172a">A</text>
+<text x="255" y="348" text-anchor="middle" font-size="12" fill="#475569" font-family="'SF Mono',Menlo,Consolas,monospace">x<tspan dy="3" font-size="9">1</tspan></text>
+<line x1="255" y1="282" x2="255" y2="226" stroke="#475569" stroke-width="2" marker-end="url(#ah)"/>
+<rect x="215" y="160" width="80" height="60" rx="14" fill="url(#gG)" stroke="#7bc68f" stroke-width="1.8" filter="url(#sh)"/>
+<text x="255" y="196" text-anchor="middle" font-size="16" font-weight="700" fill="#166534">RNN</text>
+<line x1="255" y1="156" x2="255" y2="116" stroke="#6d28d9" stroke-width="2.2" marker-end="url(#ap)"/>
+<rect x="223" y="74" width="64" height="36" rx="18" fill="url(#gP)" stroke="#c4b5fd" stroke-width="1.5" filter="url(#sh)"/>
+<text x="255" y="98" text-anchor="middle" font-size="16" font-weight="700" fill="#0f172a">h<tspan dy="4" font-size="10">1</tspan></text>
+<text x="255" y="64" text-anchor="middle" font-size="11.5" fill="#475569">has read: token 1</text>
+<line x1="297" y1="190" x2="323" y2="190" stroke="#6d28d9" stroke-width="2.2" marker-end="url(#ap)"/>
+<rect x="324" y="286" width="86" height="40" rx="12" fill="url(#gA)" stroke="#f2c261" stroke-width="1.5" filter="url(#sh)"/>
+<text x="367" y="312" text-anchor="middle" font-size="17" font-weight="700" fill="#0f172a">cute</text>
+<text x="367" y="348" text-anchor="middle" font-size="12" fill="#475569" font-family="'SF Mono',Menlo,Consolas,monospace">x<tspan dy="3" font-size="9">2</tspan></text>
+<line x1="367" y1="282" x2="367" y2="226" stroke="#475569" stroke-width="2" marker-end="url(#ah)"/>
+<rect x="327" y="160" width="80" height="60" rx="14" fill="url(#gG)" stroke="#7bc68f" stroke-width="1.8" filter="url(#sh)"/>
+<text x="367" y="196" text-anchor="middle" font-size="16" font-weight="700" fill="#166534">RNN</text>
+<line x1="367" y1="156" x2="367" y2="116" stroke="#6d28d9" stroke-width="2.2" marker-end="url(#ap)"/>
+<rect x="335" y="74" width="64" height="36" rx="18" fill="url(#gP)" stroke="#c4b5fd" stroke-width="1.5" filter="url(#sh)"/>
+<text x="367" y="98" text-anchor="middle" font-size="16" font-weight="700" fill="#0f172a">h<tspan dy="4" font-size="10">2</tspan></text>
+<text x="367" y="64" text-anchor="middle" font-size="11.5" fill="#475569">has read: tokens 1–2</text>
+<line x1="409" y1="190" x2="435" y2="190" stroke="#6d28d9" stroke-width="2.2" marker-end="url(#ap)"/>
+<rect x="436" y="286" width="86" height="40" rx="12" fill="url(#gA)" stroke="#f2c261" stroke-width="1.5" filter="url(#sh)"/>
+<text x="479" y="312" text-anchor="middle" font-size="17" font-weight="700" fill="#0f172a">teddy</text>
+<text x="479" y="348" text-anchor="middle" font-size="12" fill="#475569" font-family="'SF Mono',Menlo,Consolas,monospace">x<tspan dy="3" font-size="9">3</tspan></text>
+<line x1="479" y1="282" x2="479" y2="226" stroke="#475569" stroke-width="2" marker-end="url(#ah)"/>
+<rect x="439" y="160" width="80" height="60" rx="14" fill="url(#gG)" stroke="#7bc68f" stroke-width="1.8" filter="url(#sh)"/>
+<text x="479" y="196" text-anchor="middle" font-size="16" font-weight="700" fill="#166534">RNN</text>
+<line x1="479" y1="156" x2="479" y2="116" stroke="#6d28d9" stroke-width="2.2" marker-end="url(#ap)"/>
+<rect x="447" y="74" width="64" height="36" rx="18" fill="url(#gP)" stroke="#c4b5fd" stroke-width="1.5" filter="url(#sh)"/>
+<text x="479" y="98" text-anchor="middle" font-size="16" font-weight="700" fill="#0f172a">h<tspan dy="4" font-size="10">3</tspan></text>
+<text x="479" y="64" text-anchor="middle" font-size="11.5" fill="#475569">has read: tokens 1–3</text>
+<line x1="521" y1="190" x2="547" y2="190" stroke="#6d28d9" stroke-width="2.2" marker-end="url(#ap)"/>
+<rect x="548" y="286" width="86" height="40" rx="12" fill="url(#gA)" stroke="#f2c261" stroke-width="1.5" filter="url(#sh)"/>
+<text x="591" y="312" text-anchor="middle" font-size="17" font-weight="700" fill="#0f172a">bear</text>
+<text x="591" y="348" text-anchor="middle" font-size="12" fill="#475569" font-family="'SF Mono',Menlo,Consolas,monospace">x<tspan dy="3" font-size="9">4</tspan></text>
+<line x1="591" y1="282" x2="591" y2="226" stroke="#475569" stroke-width="2" marker-end="url(#ah)"/>
+<rect x="551" y="160" width="80" height="60" rx="14" fill="url(#gG)" stroke="#7bc68f" stroke-width="1.8" filter="url(#sh)"/>
+<text x="591" y="196" text-anchor="middle" font-size="16" font-weight="700" fill="#166534">RNN</text>
+<line x1="591" y1="156" x2="591" y2="116" stroke="#6d28d9" stroke-width="2.2" marker-end="url(#ap)"/>
+<rect x="559" y="74" width="64" height="36" rx="18" fill="url(#gP)" stroke="#c4b5fd" stroke-width="1.5" filter="url(#sh)"/>
+<text x="591" y="98" text-anchor="middle" font-size="16" font-weight="700" fill="#0f172a">h<tspan dy="4" font-size="10">4</tspan></text>
+<text x="591" y="64" text-anchor="middle" font-size="11.5" fill="#475569">has read: tokens 1–4</text>
+<line x1="633" y1="190" x2="659" y2="190" stroke="#6d28d9" stroke-width="2.2" marker-end="url(#ap)"/>
+<rect x="660" y="286" width="86" height="40" rx="12" fill="url(#gA)" stroke="#f2c261" stroke-width="1.5" filter="url(#sh)"/>
+<text x="703" y="312" text-anchor="middle" font-size="17" font-weight="700" fill="#0f172a">is</text>
+<text x="703" y="348" text-anchor="middle" font-size="12" fill="#475569" font-family="'SF Mono',Menlo,Consolas,monospace">x<tspan dy="3" font-size="9">5</tspan></text>
+<line x1="703" y1="282" x2="703" y2="226" stroke="#475569" stroke-width="2" marker-end="url(#ah)"/>
+<rect x="663" y="160" width="80" height="60" rx="14" fill="url(#gG)" stroke="#7bc68f" stroke-width="1.8" filter="url(#sh)"/>
+<text x="703" y="196" text-anchor="middle" font-size="16" font-weight="700" fill="#166534">RNN</text>
+<line x1="703" y1="156" x2="703" y2="116" stroke="#6d28d9" stroke-width="2.2" marker-end="url(#ap)"/>
+<rect x="671" y="74" width="64" height="36" rx="18" fill="url(#gP)" stroke="#c4b5fd" stroke-width="1.5" filter="url(#sh)"/>
+<text x="703" y="98" text-anchor="middle" font-size="16" font-weight="700" fill="#0f172a">h<tspan dy="4" font-size="10">5</tspan></text>
+<text x="703" y="64" text-anchor="middle" font-size="11.5" fill="#475569">has read: tokens 1–5</text>
+<line x1="745" y1="190" x2="771" y2="190" stroke="#6d28d9" stroke-width="2.2" marker-end="url(#ap)"/>
+<rect x="772" y="286" width="86" height="40" rx="12" fill="url(#gA)" stroke="#f2c261" stroke-width="1.5" filter="url(#sh)"/>
+<text x="815" y="312" text-anchor="middle" font-size="17" font-weight="700" fill="#0f172a">reading</text>
+<text x="815" y="348" text-anchor="middle" font-size="12" fill="#475569" font-family="'SF Mono',Menlo,Consolas,monospace">x<tspan dy="3" font-size="9">6</tspan></text>
+<line x1="815" y1="282" x2="815" y2="226" stroke="#475569" stroke-width="2" marker-end="url(#ah)"/>
+<rect x="775" y="160" width="80" height="60" rx="14" fill="url(#gG)" stroke="#7bc68f" stroke-width="1.8" filter="url(#sh)"/>
+<text x="815" y="196" text-anchor="middle" font-size="16" font-weight="700" fill="#166534">RNN</text>
+<line x1="815" y1="156" x2="815" y2="116" stroke="#6d28d9" stroke-width="2.2" marker-end="url(#ap)"/>
+<rect x="783" y="74" width="64" height="36" rx="18" fill="url(#gP)" stroke="#c4b5fd" stroke-width="1.5" filter="url(#sh)"/>
+<text x="815" y="98" text-anchor="middle" font-size="16" font-weight="700" fill="#0f172a">h<tspan dy="4" font-size="10">6</tspan></text>
+<text x="815" y="64" text-anchor="middle" font-size="11.5" fill="#475569">has read: tokens 1–6</text>
+<text x="440" y="378" text-anchor="middle" font-size="13" font-style="italic" fill="#475569">The same RNN cell, with the same weights, is reused at every step. The hidden state is passed along.</text>
+</svg>
