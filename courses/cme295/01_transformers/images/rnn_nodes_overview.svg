@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 584" width="900" height="584" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif">
+<defs><filter id="sh" x="-10%" y="-10%" width="120%" height="130%"><feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#0f172a" flood-opacity="0.14"/></filter></defs>
+<rect x="1" y="1" width="898" height="582" rx="22" fill="#fcfcfd" stroke="#e2e8f0" stroke-width="2"/>
+<rect x="22" y="14" width="300" height="30" rx="15" fill="#ffefc2"/>
+<text x="172" y="34" text-anchor="middle" font-size="14" font-weight="700" fill="#92400e">Amber lines: W<tspan dy="4" font-size="10">xh</tspan><tspan dy="-4"> reads the word</tspan></text>
+<rect x="340" y="14" width="340" height="30" rx="15" fill="#e6defa"/>
+<text x="510" y="34" text-anchor="middle" font-size="14" font-weight="700" fill="#5b21b6">Purple lines: W<tspan dy="4" font-size="10">hh</tspan><tspan dy="-4"> keeps the old memory</tspan></text>
+<line x1="289" y1="96" x2="431" y2="372" stroke="#f59e0b" stroke-width="3.2" opacity="0.80" stroke-linecap="round"/>
+<line x1="289" y1="200" x2="431" y2="372" stroke="#f59e0b" stroke-width="3.2" opacity="0.80" stroke-linecap="round"/>
+<line x1="289" y1="148" x2="431" y2="424" stroke="#f59e0b" stroke-width="2.3" opacity="0.80" stroke-linecap="round"/>
+<line x1="289" y1="252" x2="431" y2="424" stroke="#f59e0b" stroke-width="3.2" opacity="0.80" stroke-linecap="round"/>
+<line x1="289" y1="96" x2="431" y2="476" stroke="#f59e0b" stroke-width="2.3" opacity="0.80" stroke-linecap="round"/>
+<line x1="289" y1="148" x2="431" y2="476" stroke="#f59e0b" stroke-width="2.3" opacity="0.80" stroke-linecap="round"/>
+<line x1="289" y1="200" x2="431" y2="476" stroke="#f59e0b" stroke-width="2.3" opacity="0.80" stroke-dasharray="6 4" stroke-linecap="round"/>
+<line x1="109" y1="372" x2="431" y2="372" stroke="#8b5cf6" stroke-width="2.3" opacity="0.28" stroke-linecap="round"/>
+<line x1="109" y1="424" x2="431" y2="424" stroke="#8b5cf6" stroke-width="2.3" opacity="0.28" stroke-linecap="round"/>
+<line x1="109" y1="476" x2="431" y2="424" stroke="#8b5cf6" stroke-width="2.3" opacity="0.28" stroke-linecap="round"/>
+<line x1="109" y1="372" x2="431" y2="476" stroke="#8b5cf6" stroke-width="2.3" opacity="0.28" stroke-linecap="round"/>
+<line x1="109" y1="476" x2="431" y2="476" stroke="#8b5cf6" stroke-width="2.3" opacity="0.28" stroke-linecap="round"/>
+<line x1="649" y1="96" x2="791" y2="372" stroke="#f59e0b" stroke-width="3.2" opacity="0.80" stroke-linecap="round"/>
+<line x1="649" y1="200" x2="791" y2="372" stroke="#f59e0b" stroke-width="3.2" opacity="0.80" stroke-linecap="round"/>
+<line x1="649" y1="148" x2="791" y2="424" stroke="#f59e0b" stroke-width="2.3" opacity="0.80" stroke-linecap="round"/>
+<line x1="649" y1="252" x2="791" y2="424" stroke="#f59e0b" stroke-width="3.2" opacity="0.80" stroke-linecap="round"/>
+<line x1="649" y1="96" x2="791" y2="476" stroke="#f59e0b" stroke-width="2.3" opacity="0.80" stroke-linecap="round"/>
+<line x1="649" y1="148" x2="791" y2="476" stroke="#f59e0b" stroke-width="2.3" opacity="0.80" stroke-linecap="round"/>
+<line x1="649" y1="200" x2="791" y2="476" stroke="#f59e0b" stroke-width="2.3" opacity="0.80" stroke-dasharray="6 4" stroke-linecap="round"/>
+<line x1="469" y1="372" x2="791" y2="372" stroke="#8b5cf6" stroke-width="2.3" opacity="0.80" stroke-linecap="round"/>
+<line x1="469" y1="424" x2="791" y2="424" stroke="#8b5cf6" stroke-width="2.3" opacity="0.80" stroke-linecap="round"/>
+<line x1="469" y1="476" x2="791" y2="424" stroke="#8b5cf6" stroke-width="2.3" opacity="0.80" stroke-linecap="round"/>
+<line x1="469" y1="372" x2="791" y2="476" stroke="#8b5cf6" stroke-width="2.3" opacity="0.80" stroke-linecap="round"/>
+<line x1="469" y1="476" x2="791" y2="476" stroke="#8b5cf6" stroke-width="2.3" opacity="0.80" stroke-linecap="round"/>
+<circle cx="270" cy="96" r="19" fill="#fff6dc" stroke="#f2c261" stroke-width="1.8" filter="url(#sh)"/>
+<text x="270" y="100" text-anchor="middle" font-size="10.5" font-weight="700" fill="#0f172a" font-family="'SF Mono',Menlo,Consolas,monospace">+0.10</text>
+<circle cx="270" cy="148" r="19" fill="#fff6dc" stroke="#f2c261" stroke-width="1.8" filter="url(#sh)"/>
+<text x="270" y="152" text-anchor="middle" font-size="10.5" font-weight="700" fill="#0f172a" font-family="'SF Mono',Menlo,Consolas,monospace">+0.00</text>
+<circle cx="270" cy="200" r="19" fill="#fff6dc" stroke="#f2c261" stroke-width="1.8" filter="url(#sh)"/>
+<text x="270" y="204" text-anchor="middle" font-size="10.5" font-weight="700" fill="#0f172a" font-family="'SF Mono',Menlo,Consolas,monospace">+0.30</text>
+<circle cx="270" cy="252" r="19" fill="#fff6dc" stroke="#f2c261" stroke-width="1.8" filter="url(#sh)"/>
+<text x="270" y="256" text-anchor="middle" font-size="10.5" font-weight="700" fill="#0f172a" font-family="'SF Mono',Menlo,Consolas,monospace">-0.10</text>
+<circle cx="630" cy="96" r="19" fill="#fff6dc" stroke="#f2c261" stroke-width="1.8" filter="url(#sh)"/>
+<text x="630" y="100" text-anchor="middle" font-size="10.5" font-weight="700" fill="#0f172a" font-family="'SF Mono',Menlo,Consolas,monospace">+0.20</text>
+<circle cx="630" cy="148" r="19" fill="#fff6dc" stroke="#f2c261" stroke-width="1.8" filter="url(#sh)"/>
+<text x="630" y="152" text-anchor="middle" font-size="10.5" font-weight="700" fill="#0f172a" font-family="'SF Mono',Menlo,Consolas,monospace">+0.50</text>
+<circle cx="630" cy="200" r="19" fill="#fff6dc" stroke="#f2c261" stroke-width="1.8" filter="url(#sh)"/>
+<text x="630" y="204" text-anchor="middle" font-size="10.5" font-weight="700" fill="#0f172a" font-family="'SF Mono',Menlo,Consolas,monospace">-0.10</text>
+<circle cx="630" cy="252" r="19" fill="#fff6dc" stroke="#f2c261" stroke-width="1.8" filter="url(#sh)"/>
+<text x="630" y="256" text-anchor="middle" font-size="10.5" font-weight="700" fill="#0f172a" font-family="'SF Mono',Menlo,Consolas,monospace">+0.40</text>
+<circle cx="90" cy="372" r="19" fill="#e6defa" stroke="#7c3aed" stroke-width="2.4" filter="url(#sh)"/>
+<text x="90" y="376" text-anchor="middle" font-size="10.5" font-weight="700" fill="#0f172a" font-family="'SF Mono',Menlo,Consolas,monospace">+0.00</text>
+<circle cx="90" cy="424" r="19" fill="#e6defa" stroke="#7c3aed" stroke-width="2.4" filter="url(#sh)"/>
+<text x="90" y="428" text-anchor="middle" font-size="10.5" font-weight="700" fill="#0f172a" font-family="'SF Mono',Menlo,Consolas,monospace">+0.00</text>
+<circle cx="90" cy="476" r="19" fill="#e6defa" stroke="#7c3aed" stroke-width="2.4" filter="url(#sh)"/>
+<text x="90" y="480" text-anchor="middle" font-size="10.5" font-weight="700" fill="#0f172a" font-family="'SF Mono',Menlo,Consolas,monospace">+0.00</text>
+<circle cx="450" cy="372" r="19" fill="#e6defa" stroke="#7c3aed" stroke-width="2.4" filter="url(#sh)"/>
+<text x="450" y="376" text-anchor="middle" font-size="10.5" font-weight="700" fill="#0f172a" font-family="'SF Mono',Menlo,Consolas,monospace">+0.66</text>
+<circle cx="450" cy="424" r="19" fill="#e6defa" stroke="#7c3aed" stroke-width="2.4" filter="url(#sh)"/>
+<text x="450" y="428" text-anchor="middle" font-size="10.5" font-weight="700" fill="#0f172a" font-family="'SF Mono',Menlo,Consolas,monospace">-0.10</text>
+<circle cx="450" cy="476" r="19" fill="#e6defa" stroke="#7c3aed" stroke-width="2.4" filter="url(#sh)"/>
+<text x="450" y="480" text-anchor="middle" font-size="10.5" font-weight="700" fill="#0f172a" font-family="'SF Mono',Menlo,Consolas,monospace">-0.29</text>
+<circle cx="810" cy="372" r="19" fill="#e6defa" stroke="#7c3aed" stroke-width="2.4" filter="url(#sh)"/>
+<text x="810" y="376" text-anchor="middle" font-size="10.5" font-weight="700" fill="#0f172a" font-family="'SF Mono',Menlo,Consolas,monospace">+0.70</text>
+<circle cx="810" cy="424" r="19" fill="#e6defa" stroke="#7c3aed" stroke-width="2.4" filter="url(#sh)"/>
+<text x="810" y="428" text-anchor="middle" font-size="10.5" font-weight="700" fill="#0f172a" font-family="'SF Mono',Menlo,Consolas,monospace">+0.77</text>
+<circle cx="810" cy="476" r="19" fill="#e6defa" stroke="#7c3aed" stroke-width="2.4" filter="url(#sh)"/>
+<text x="810" y="480" text-anchor="middle" font-size="10.5" font-weight="700" fill="#0f172a" font-family="'SF Mono',Menlo,Consolas,monospace">+0.79</text>
+<text x="270" y="72" text-anchor="middle" font-size="14.5" font-weight="700" fill="#92400e">x<tspan dy="4" font-size="10">1</tspan> (“A”)</text>
+<text x="630" y="72" text-anchor="middle" font-size="14.5" font-weight="700" fill="#92400e">x<tspan dy="4" font-size="10">2</tspan> (“cute”)</text>
+<text x="90" y="342" text-anchor="middle" font-size="14.5" font-weight="700" fill="#5b21b6">h<tspan dy="4" font-size="10">0</tspan></text>
+<text x="450" y="342" text-anchor="middle" font-size="14.5" font-weight="700" fill="#5b21b6">h<tspan dy="4" font-size="10">1</tspan></text>
+<text x="810" y="342" text-anchor="middle" font-size="14.5" font-weight="700" fill="#5b21b6">h<tspan dy="4" font-size="10">2</tspan></text>
+<text x="90" y="506" text-anchor="middle" font-size="12" fill="#94a3b8">starts at 0</text>
+<text x="450" y="506" text-anchor="middle" font-size="12" fill="#94a3b8">memory after step 1</text>
+<text x="810" y="506" text-anchor="middle" font-size="12" fill="#94a3b8">memory after step 2</text>
+<text x="270" y="540" text-anchor="middle" font-size="13" font-weight="700" fill="#0f172a">Step 1:  h<tspan dy="4" font-size="9">1</tspan><tspan dy="-4"> = tanh(W</tspan><tspan dy="4" font-size="9">xh</tspan><tspan dy="-4"> x</tspan><tspan dy="4" font-size="9">1</tspan><tspan dy="-4"> + W</tspan><tspan dy="4" font-size="9">hh</tspan><tspan dy="-4"> h</tspan><tspan dy="4" font-size="9">0</tspan><tspan dy="-4"> + b)</tspan></text>
+<text x="630" y="540" text-anchor="middle" font-size="13" font-weight="700" fill="#0f172a">Step 2:  h<tspan dy="4" font-size="9">2</tspan><tspan dy="-4"> = tanh(W</tspan><tspan dy="4" font-size="9">xh</tspan><tspan dy="-4"> x</tspan><tspan dy="4" font-size="9">2</tspan><tspan dy="-4"> + W</tspan><tspan dy="4" font-size="9">hh</tspan><tspan dy="-4"> h</tspan><tspan dy="4" font-size="9">1</tspan><tspan dy="-4"> + b)</tspan></text>
+<text x="450" y="566" text-anchor="middle" font-size="12.5" fill="#475569">Each node is a number. A dashed line is a negative weight. No line means the weight is 0. h<tspan dy="4" font-size="9">1</tspan><tspan dy="-4"> is the output of step 1 and the old memory of step 2.</tspan></text>
+</svg>
