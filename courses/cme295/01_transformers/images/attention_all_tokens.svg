@@ -1,0 +1,144 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1060 430" width="1060" height="430" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif">
+<defs><marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#475569"/></marker><filter id="sh" x="-10%" y="-10%" width="120%" height="130%"><feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#0f172a" flood-opacity="0.12"/></filter></defs>
+<rect x="1" y="1" width="1058" height="428" rx="22" fill="#fcfcfd" stroke="#e2e8f0" stroke-width="2"/>
+<rect x="22" y="14" width="225" height="30" rx="15" fill="#ffe7a3"/>
+<text x="134" y="34" text-anchor="middle" font-size="15" font-weight="700" fill="#92400e">All the tokens at once</text>
+<text x="26" y="193" font-size="13.5" font-weight="800" fill="#0f172a">A</text>
+<text x="26" y="229" font-size="13.5" font-weight="800" fill="#0f172a">cute</text>
+<text x="26" y="265" font-size="13.5" font-weight="800" fill="#0f172a">teddy</text>
+<text x="26" y="301" font-size="13.5" font-weight="800" fill="#0f172a">bear</text>
+<text x="142" y="96" text-anchor="middle" font-size="15" font-weight="800" fill="#1d4ed8">Queries  (4 × 2)</text>
+<text x="142" y="116" text-anchor="middle" font-size="12.5" fill="#475569" font-family="'SF Mono',Menlo,Consolas,monospace">Q = X W_Q</text>
+<g filter="url(#sh)"><rect x="92" y="170" width="100" height="144" rx="8" fill="#fff"/></g>
+<rect x="92" y="170" width="50" height="36" fill="#e3efff" stroke="#93c5fd" stroke-width="1.2"/>
+<text x="117" y="193" text-anchor="middle" font-size="13" font-weight="700" fill="#0f172a" font-family="'SF Mono',Menlo,Consolas,monospace">0.2</text>
+<rect x="142" y="170" width="50" height="36" fill="#e3efff" stroke="#93c5fd" stroke-width="1.2"/>
+<text x="167" y="193" text-anchor="middle" font-size="13" font-weight="700" fill="#0f172a" font-family="'SF Mono',Menlo,Consolas,monospace">−0.3</text>
+<rect x="92" y="206" width="50" height="36" fill="#e3efff" stroke="#93c5fd" stroke-width="1.2"/>
+<text x="117" y="229" text-anchor="middle" font-size="13" font-weight="700" fill="#0f172a" font-family="'SF Mono',Menlo,Consolas,monospace">0.8</text>
+<rect x="142" y="206" width="50" height="36" fill="#e3efff" stroke="#93c5fd" stroke-width="1.2"/>
+<text x="167" y="229" text-anchor="middle" font-size="13" font-weight="700" fill="#0f172a" font-family="'SF Mono',Menlo,Consolas,monospace">−0.4</text>
+<rect x="92" y="242" width="50" height="36" fill="#e3efff" stroke="#93c5fd" stroke-width="1.2"/>
+<text x="117" y="265" text-anchor="middle" font-size="13" font-weight="700" fill="#0f172a" font-family="'SF Mono',Menlo,Consolas,monospace">0.6</text>
+<rect x="142" y="242" width="50" height="36" fill="#e3efff" stroke="#93c5fd" stroke-width="1.2"/>
+<text x="167" y="265" text-anchor="middle" font-size="13" font-weight="700" fill="#0f172a" font-family="'SF Mono',Menlo,Consolas,monospace">0.2</text>
+<rect x="92" y="278" width="50" height="36" fill="#e3efff" stroke="#93c5fd" stroke-width="1.2"/>
+<text x="117" y="301" text-anchor="middle" font-size="13" font-weight="700" fill="#0f172a" font-family="'SF Mono',Menlo,Consolas,monospace">1.5</text>
+<rect x="142" y="278" width="50" height="36" fill="#e3efff" stroke="#93c5fd" stroke-width="1.2"/>
+<text x="167" y="301" text-anchor="middle" font-size="13" font-weight="700" fill="#0f172a" font-family="'SF Mono',Menlo,Consolas,monospace">−1.3</text>
+<rect x="89" y="277" width="106" height="38" rx="6" fill="none" stroke="#e8820c" stroke-width="2.8"/>
+<line x1="198" y1="242" x2="254" y2="242" stroke="#475569" stroke-width="2.4" marker-end="url(#ah)"/>
+<text x="226" y="234" text-anchor="middle" font-size="12" font-weight="800" fill="#475569">× Kᵀ</text>
+<text x="370" y="96" text-anchor="middle" font-size="15" font-weight="800" fill="#92400e">Scores  (4 × 4)</text>
+<text x="370" y="116" text-anchor="middle" font-size="12.5" fill="#475569" font-family="'SF Mono',Menlo,Consolas,monospace">Q Kᵀ</text>
+<text x="289" y="160" text-anchor="middle" font-size="12.5" font-weight="700" fill="#0f172a">A</text>
+<text x="343" y="160" text-anchor="middle" font-size="12.5" font-weight="700" fill="#0f172a">cute</text>
+<text x="397" y="160" text-anchor="middle" font-size="12.5" font-weight="700" fill="#0f172a">teddy</text>
+<text x="451" y="160" text-anchor="middle" font-size="12.5" font-weight="700" fill="#0f172a">bear</text>
+<g filter="url(#sh)"><rect x="262" y="170" width="216" height="144" rx="8" fill="#fff"/></g>
+<rect x="262" y="170" width="54" height="36" fill="#fff3d6" stroke="#f2c261" stroke-width="1.2"/>
+<text x="289" y="193" text-anchor="middle" font-size="13" font-weight="700" fill="#0f172a" font-family="'SF Mono',Menlo,Consolas,monospace">−0.11</text>
+<rect x="316" y="170" width="54" height="36" fill="#fff3d6" stroke="#f2c261" stroke-width="1.2"/>
+<text x="343" y="193" text-anchor="middle" font-size="13" font-weight="700" fill="#0f172a" font-family="'SF Mono',Menlo,Consolas,monospace">0.17</text>
+<rect x="370" y="170" width="54" height="36" fill="#fff3d6" stroke="#f2c261" stroke-width="1.2"/>
+<text x="397" y="193" text-anchor="middle" font-size="13" font-weight="700" fill="#0f172a" font-family="'SF Mono',Menlo,Consolas,monospace">0.30</text>
+<rect x="424" y="170" width="54" height="36" fill="#fff3d6" stroke="#f2c261" stroke-width="1.2"/>
+<text x="451" y="193" text-anchor="middle" font-size="13" font-weight="700" fill="#0f172a" font-family="'SF Mono',Menlo,Consolas,monospace">−0.07</text>
+<rect x="262" y="206" width="54" height="36" fill="#fff3d6" stroke="#f2c261" stroke-width="1.2"/>
+<text x="289" y="229" text-anchor="middle" font-size="13" font-weight="700" fill="#0f172a" font-family="'SF Mono',Menlo,Consolas,monospace">−0.36</text>
+<rect x="316" y="206" width="54" height="36" fill="#fff3d6" stroke="#f2c261" stroke-width="1.2"/>
+<text x="343" y="229" text-anchor="middle" font-size="13" font-weight="700" fill="#0f172a" font-family="'SF Mono',Menlo,Consolas,monospace">0.76</text>
+<rect x="370" y="206" width="54" height="36" fill="#fff3d6" stroke="#f2c261" stroke-width="1.2"/>
+<text x="397" y="229" text-anchor="middle" font-size="13" font-weight="700" fill="#0f172a" font-family="'SF Mono',Menlo,Consolas,monospace">1.04</text>
+<rect x="424" y="206" width="54" height="36" fill="#fff3d6" stroke="#f2c261" stroke-width="1.2"/>
+<text x="451" y="229" text-anchor="middle" font-size="13" font-weight="700" fill="#0f172a" font-family="'SF Mono',Menlo,Consolas,monospace">0.28</text>
+<rect x="262" y="242" width="54" height="36" fill="#fff3d6" stroke="#f2c261" stroke-width="1.2"/>
+<text x="289" y="265" text-anchor="middle" font-size="13" font-weight="700" fill="#0f172a" font-family="'SF Mono',Menlo,Consolas,monospace">−0.22</text>
+<rect x="316" y="242" width="54" height="36" fill="#fff3d6" stroke="#f2c261" stroke-width="1.2"/>
+<text x="343" y="265" text-anchor="middle" font-size="13" font-weight="700" fill="#0f172a" font-family="'SF Mono',Menlo,Consolas,monospace">0.62</text>
+<rect x="370" y="242" width="54" height="36" fill="#fff3d6" stroke="#f2c261" stroke-width="1.2"/>
+<text x="397" y="265" text-anchor="middle" font-size="13" font-weight="700" fill="#0f172a" font-family="'SF Mono',Menlo,Consolas,monospace">0.68</text>
+<rect x="424" y="242" width="54" height="36" fill="#fff3d6" stroke="#f2c261" stroke-width="1.2"/>
+<text x="451" y="265" text-anchor="middle" font-size="13" font-weight="700" fill="#0f172a" font-family="'SF Mono',Menlo,Consolas,monospace">0.56</text>
+<rect x="262" y="278" width="54" height="36" fill="#fff3d6" stroke="#f2c261" stroke-width="1.2"/>
+<text x="289" y="301" text-anchor="middle" font-size="13" font-weight="700" fill="#0f172a" font-family="'SF Mono',Menlo,Consolas,monospace">−0.73</text>
+<rect x="316" y="278" width="54" height="36" fill="#fff3d6" stroke="#f2c261" stroke-width="1.2"/>
+<text x="343" y="301" text-anchor="middle" font-size="13" font-weight="700" fill="#0f172a" font-family="'SF Mono',Menlo,Consolas,monospace">1.37</text>
+<rect x="370" y="278" width="54" height="36" fill="#fff3d6" stroke="#f2c261" stroke-width="1.2"/>
+<text x="397" y="301" text-anchor="middle" font-size="13" font-weight="700" fill="#0f172a" font-family="'SF Mono',Menlo,Consolas,monospace">2.06</text>
+<rect x="424" y="278" width="54" height="36" fill="#fff3d6" stroke="#f2c261" stroke-width="1.2"/>
+<text x="451" y="301" text-anchor="middle" font-size="13" font-weight="700" fill="#0f172a" font-family="'SF Mono',Menlo,Consolas,monospace">0.14</text>
+<rect x="259" y="277" width="222" height="38" rx="6" fill="none" stroke="#e8820c" stroke-width="2.8"/>
+<line x1="484" y1="242" x2="602" y2="242" stroke="#475569" stroke-width="2.4" marker-end="url(#ah)"/>
+<text x="543" y="219" text-anchor="middle" font-size="12" font-weight="800" fill="#475569">÷ √2</text>
+<text x="543" y="234" text-anchor="middle" font-size="12" font-weight="800" fill="#475569">softmax</text>
+<text x="718" y="96" text-anchor="middle" font-size="15" font-weight="800" fill="#92400e">Weights  (4 × 4)</text>
+<text x="718" y="116" text-anchor="middle" font-size="12.5" fill="#475569" font-family="'SF Mono',Menlo,Consolas,monospace">softmax(Q Kᵀ / √dₖ)</text>
+<text x="637" y="160" text-anchor="middle" font-size="12.5" font-weight="700" fill="#0f172a">A</text>
+<text x="691" y="160" text-anchor="middle" font-size="12.5" font-weight="700" fill="#0f172a">cute</text>
+<text x="745" y="160" text-anchor="middle" font-size="12.5" font-weight="700" fill="#0f172a">teddy</text>
+<text x="799" y="160" text-anchor="middle" font-size="12.5" font-weight="700" fill="#0f172a">bear</text>
+<g filter="url(#sh)"><rect x="610" y="170" width="216" height="144" rx="8" fill="#fff"/></g>
+<rect x="610" y="170" width="54" height="36" fill="#fff3d6" stroke="#f2c261" stroke-width="1.2"/>
+<text x="637" y="193" text-anchor="middle" font-size="13" font-weight="700" fill="#0f172a" font-family="'SF Mono',Menlo,Consolas,monospace">0.22</text>
+<rect x="664" y="170" width="54" height="36" fill="#fff3d6" stroke="#f2c261" stroke-width="1.2"/>
+<text x="691" y="193" text-anchor="middle" font-size="13" font-weight="700" fill="#0f172a" font-family="'SF Mono',Menlo,Consolas,monospace">0.27</text>
+<rect x="718" y="170" width="54" height="36" fill="#fff3d6" stroke="#f2c261" stroke-width="1.2"/>
+<text x="745" y="193" text-anchor="middle" font-size="13" font-weight="700" fill="#0f172a" font-family="'SF Mono',Menlo,Consolas,monospace">0.29</text>
+<rect x="772" y="170" width="54" height="36" fill="#fff3d6" stroke="#f2c261" stroke-width="1.2"/>
+<text x="799" y="193" text-anchor="middle" font-size="13" font-weight="700" fill="#0f172a" font-family="'SF Mono',Menlo,Consolas,monospace">0.22</text>
+<rect x="610" y="206" width="54" height="36" fill="#fff3d6" stroke="#f2c261" stroke-width="1.2"/>
+<text x="637" y="229" text-anchor="middle" font-size="13" font-weight="700" fill="#0f172a" font-family="'SF Mono',Menlo,Consolas,monospace">0.13</text>
+<rect x="664" y="206" width="54" height="36" fill="#fff3d6" stroke="#f2c261" stroke-width="1.2"/>
+<text x="691" y="229" text-anchor="middle" font-size="13" font-weight="700" fill="#0f172a" font-family="'SF Mono',Menlo,Consolas,monospace">0.30</text>
+<rect x="718" y="206" width="54" height="36" fill="#fff3d6" stroke="#f2c261" stroke-width="1.2"/>
+<text x="745" y="229" text-anchor="middle" font-size="13" font-weight="700" fill="#0f172a" font-family="'SF Mono',Menlo,Consolas,monospace">0.36</text>
+<rect x="772" y="206" width="54" height="36" fill="#fff3d6" stroke="#f2c261" stroke-width="1.2"/>
+<text x="799" y="229" text-anchor="middle" font-size="13" font-weight="700" fill="#0f172a" font-family="'SF Mono',Menlo,Consolas,monospace">0.21</text>
+<rect x="610" y="242" width="54" height="36" fill="#fff3d6" stroke="#f2c261" stroke-width="1.2"/>
+<text x="637" y="265" text-anchor="middle" font-size="13" font-weight="700" fill="#0f172a" font-family="'SF Mono',Menlo,Consolas,monospace">0.16</text>
+<rect x="664" y="242" width="54" height="36" fill="#fff3d6" stroke="#f2c261" stroke-width="1.2"/>
+<text x="691" y="265" text-anchor="middle" font-size="13" font-weight="700" fill="#0f172a" font-family="'SF Mono',Menlo,Consolas,monospace">0.28</text>
+<rect x="718" y="242" width="54" height="36" fill="#fff3d6" stroke="#f2c261" stroke-width="1.2"/>
+<text x="745" y="265" text-anchor="middle" font-size="13" font-weight="700" fill="#0f172a" font-family="'SF Mono',Menlo,Consolas,monospace">0.29</text>
+<rect x="772" y="242" width="54" height="36" fill="#fff3d6" stroke="#f2c261" stroke-width="1.2"/>
+<text x="799" y="265" text-anchor="middle" font-size="13" font-weight="700" fill="#0f172a" font-family="'SF Mono',Menlo,Consolas,monospace">0.27</text>
+<rect x="610" y="278" width="54" height="36" fill="#fff3d6" stroke="#f2c261" stroke-width="1.2"/>
+<text x="637" y="301" text-anchor="middle" font-size="13" font-weight="700" fill="#0f172a" font-family="'SF Mono',Menlo,Consolas,monospace">0.07</text>
+<rect x="664" y="278" width="54" height="36" fill="#fff3d6" stroke="#f2c261" stroke-width="1.2"/>
+<text x="691" y="301" text-anchor="middle" font-size="13" font-weight="700" fill="#0f172a" font-family="'SF Mono',Menlo,Consolas,monospace">0.31</text>
+<rect x="718" y="278" width="54" height="36" fill="#fff3d6" stroke="#f2c261" stroke-width="1.2"/>
+<text x="745" y="301" text-anchor="middle" font-size="13" font-weight="700" fill="#0f172a" font-family="'SF Mono',Menlo,Consolas,monospace">0.50</text>
+<rect x="772" y="278" width="54" height="36" fill="#fff3d6" stroke="#f2c261" stroke-width="1.2"/>
+<text x="799" y="301" text-anchor="middle" font-size="13" font-weight="700" fill="#0f172a" font-family="'SF Mono',Menlo,Consolas,monospace">0.13</text>
+<rect x="607" y="277" width="222" height="38" rx="6" fill="none" stroke="#e8820c" stroke-width="2.8"/>
+<text x="854" y="160" text-anchor="middle" font-size="12" font-weight="800" fill="#475569">sum</text>
+<text x="854" y="193" text-anchor="middle" font-size="13" font-weight="800" fill="#475569" font-family="'SF Mono',Menlo,Consolas,monospace">= 1</text>
+<text x="854" y="229" text-anchor="middle" font-size="13" font-weight="800" fill="#475569" font-family="'SF Mono',Menlo,Consolas,monospace">= 1</text>
+<text x="854" y="265" text-anchor="middle" font-size="13" font-weight="800" fill="#475569" font-family="'SF Mono',Menlo,Consolas,monospace">= 1</text>
+<text x="854" y="301" text-anchor="middle" font-size="13" font-weight="800" fill="#475569" font-family="'SF Mono',Menlo,Consolas,monospace">= 1</text>
+<line x1="882" y1="242" x2="938" y2="242" stroke="#475569" stroke-width="2.4" marker-end="url(#ah)"/>
+<text x="910" y="234" text-anchor="middle" font-size="12" font-weight="800" fill="#475569">× V</text>
+<text x="996" y="96" text-anchor="middle" font-size="15" font-weight="800" fill="#5b21b6">Output  (4 × 2)</text>
+<text x="996" y="116" text-anchor="middle" font-size="12.5" fill="#475569" font-family="'SF Mono',Menlo,Consolas,monospace">weights × V</text>
+<g filter="url(#sh)"><rect x="946" y="170" width="100" height="144" rx="8" fill="#fff"/></g>
+<rect x="946" y="170" width="50" height="36" fill="#efe9fd" stroke="#a78bfa" stroke-width="1.2"/>
+<text x="971" y="193" text-anchor="middle" font-size="13" font-weight="700" fill="#0f172a" font-family="'SF Mono',Menlo,Consolas,monospace">0.41</text>
+<rect x="996" y="170" width="50" height="36" fill="#efe9fd" stroke="#a78bfa" stroke-width="1.2"/>
+<text x="1021" y="193" text-anchor="middle" font-size="13" font-weight="700" fill="#0f172a" font-family="'SF Mono',Menlo,Consolas,monospace">0.26</text>
+<rect x="946" y="206" width="50" height="36" fill="#efe9fd" stroke="#a78bfa" stroke-width="1.2"/>
+<text x="971" y="229" text-anchor="middle" font-size="13" font-weight="700" fill="#0f172a" font-family="'SF Mono',Menlo,Consolas,monospace">0.36</text>
+<rect x="996" y="206" width="50" height="36" fill="#efe9fd" stroke="#a78bfa" stroke-width="1.2"/>
+<text x="1021" y="229" text-anchor="middle" font-size="13" font-weight="700" fill="#0f172a" font-family="'SF Mono',Menlo,Consolas,monospace">0.30</text>
+<rect x="946" y="242" width="50" height="36" fill="#efe9fd" stroke="#a78bfa" stroke-width="1.2"/>
+<text x="971" y="265" text-anchor="middle" font-size="13" font-weight="700" fill="#0f172a" font-family="'SF Mono',Menlo,Consolas,monospace">0.45</text>
+<rect x="996" y="242" width="50" height="36" fill="#efe9fd" stroke="#a78bfa" stroke-width="1.2"/>
+<text x="1021" y="265" text-anchor="middle" font-size="13" font-weight="700" fill="#0f172a" font-family="'SF Mono',Menlo,Consolas,monospace">0.25</text>
+<rect x="946" y="278" width="50" height="36" fill="#efe9fd" stroke="#a78bfa" stroke-width="1.2"/>
+<text x="971" y="301" text-anchor="middle" font-size="13" font-weight="700" fill="#0f172a" font-family="'SF Mono',Menlo,Consolas,monospace">0.21</text>
+<rect x="996" y="278" width="50" height="36" fill="#efe9fd" stroke="#a78bfa" stroke-width="1.2"/>
+<text x="1021" y="301" text-anchor="middle" font-size="13" font-weight="700" fill="#0f172a" font-family="'SF Mono',Menlo,Consolas,monospace">0.40</text>
+<rect x="943" y="277" width="106" height="38" rx="6" fill="none" stroke="#e8820c" stroke-width="2.8"/>
+<text x="530" y="374" text-anchor="middle" font-size="13" fill="#475569">The outlined row is “bear”. It is the same as steps 1, 3, 5 and 6, up to rounding.</text>
+<text x="530" y="400" text-anchor="middle" font-size="12.5" font-style="italic" fill="#475569">Rows are the tokens that look. Columns of the scores and weights are the tokens they look at. The row sums are 1 before rounding.</text>
+</svg>

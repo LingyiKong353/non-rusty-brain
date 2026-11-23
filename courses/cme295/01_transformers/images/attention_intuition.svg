@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 496" width="900" height="496" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif">
+<defs><marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#94a3b8"/></marker><marker id="ao" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4.5" markerHeight="4.5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#e8820c"/></marker><marker id="ap" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4.5" markerHeight="4.5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#7c3aed"/></marker><linearGradient id="gP" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fbfaff"/><stop offset="1" stop-color="#efeafc"/></linearGradient><linearGradient id="gA" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fffbef"/><stop offset="1" stop-color="#fff0c9"/></linearGradient><filter id="sh" x="-10%" y="-10%" width="120%" height="130%"><feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#0f172a" flood-opacity="0.12"/></filter></defs>
+<rect x="1" y="1" width="898" height="494" rx="22" fill="#fcfcfd" stroke="#e2e8f0" stroke-width="2"/>
+<rect x="18" y="14" width="864" height="168" rx="20" fill="url(#gP)" stroke="#c4b5fd" stroke-width="1.5"/>
+<rect x="34" y="26" width="344" height="30" rx="15" fill="#d9ccfa"/>
+<text x="206" y="46" text-anchor="middle" font-size="14.5" font-weight="700" fill="#5b21b6">RNN: information travels step by step</text>
+<line x1="162" y1="116" x2="192" y2="116" stroke="#94a3b8" stroke-width="1.8" marker-end="url(#ah)"/>
+<line x1="298" y1="116" x2="328" y2="116" stroke="#94a3b8" stroke-width="1.8" marker-end="url(#ah)"/>
+<line x1="434" y1="116" x2="464" y2="116" stroke="#94a3b8" stroke-width="1.8" marker-end="url(#ah)"/>
+<line x1="570" y1="116" x2="600" y2="116" stroke="#7c3aed" stroke-width="3.4" marker-end="url(#ap)"/>
+<line x1="706" y1="116" x2="736" y2="116" stroke="#7c3aed" stroke-width="3.4" marker-end="url(#ap)"/>
+<rect x="62" y="96" width="96" height="40" rx="12" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.6" filter="url(#sh)"/>
+<text x="110" y="122" text-anchor="middle" font-size="17" font-weight="700" fill="#0f172a">A</text>
+<rect x="198" y="96" width="96" height="40" rx="12" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.6" filter="url(#sh)"/>
+<text x="246" y="122" text-anchor="middle" font-size="17" font-weight="700" fill="#0f172a">cute</text>
+<rect x="334" y="96" width="96" height="40" rx="12" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.6" filter="url(#sh)"/>
+<text x="382" y="122" text-anchor="middle" font-size="17" font-weight="700" fill="#0f172a">teddy</text>
+<rect x="470" y="96" width="96" height="40" rx="12" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.6" filter="url(#sh)"/>
+<text x="518" y="122" text-anchor="middle" font-size="17" font-weight="700" fill="#0f172a">bear</text>
+<rect x="606" y="96" width="96" height="40" rx="12" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.6" filter="url(#sh)"/>
+<text x="654" y="122" text-anchor="middle" font-size="17" font-weight="700" fill="#0f172a">is</text>
+<rect x="742" y="96" width="96" height="40" rx="12" fill="#fff3d6" stroke="#e8820c" stroke-width="2.4" filter="url(#sh)"/>
+<text x="790" y="122" text-anchor="middle" font-size="17" font-weight="700" fill="#0f172a">reading</text>
+<text x="450" y="162" text-anchor="middle" font-size="13" fill="#475569">For “reading” to know about “bear”, the information has to pass through “is” first.</text>
+<rect x="18" y="196" width="864" height="260" rx="20" fill="url(#gA)" stroke="#f2c261" stroke-width="1.5"/>
+<rect x="34" y="208" width="454" height="30" rx="15" fill="#ffe7a3"/>
+<text x="261" y="228" text-anchor="middle" font-size="14.5" font-weight="700" fill="#92400e">Attention: “reading” looks at every token directly</text>
+<path d="M 790,372 Q 450,74 110,372" fill="none" stroke="#e8820c" stroke-width="2.0" opacity="0.37" stroke-linecap="round"/>
+<path d="M 790,372 Q 518,117 246,372" fill="none" stroke="#e8820c" stroke-width="2.7" opacity="0.40" stroke-linecap="round"/>
+<path d="M 790,372 Q 586,161 382,372" fill="none" stroke="#e8820c" stroke-width="3.5" opacity="0.43" stroke-linecap="round"/>
+<path d="M 790,372 Q 654,204 518,372" fill="none" stroke="#e8820c" stroke-width="10.2" opacity="0.68" stroke-linecap="round"/>
+<path d="M 790,372 Q 722,248 654,372" fill="none" stroke="#e8820c" stroke-width="3.3" opacity="0.42" stroke-linecap="round"/>
+<path d="M 772,372 C 750,320 830,320 808,372" fill="none" stroke="#e8820c" stroke-width="2.7" opacity="0.40" stroke-linecap="round"/>
+<rect x="62" y="372" width="96" height="40" rx="12" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.6" filter="url(#sh)"/>
+<text x="110" y="398" text-anchor="middle" font-size="17" font-weight="700" fill="#0f172a">A</text>
+<rect x="83" y="422" width="54" height="26" rx="13" fill="#fff7e0" stroke="#e8820c" stroke-width="1.6"/>
+<text x="110" y="440" text-anchor="middle" font-size="14" font-weight="800" fill="#7c2d12" font-family="'SF Mono',Menlo,Consolas,monospace">4%</text>
+<rect x="198" y="372" width="96" height="40" rx="12" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.6" filter="url(#sh)"/>
+<text x="246" y="398" text-anchor="middle" font-size="17" font-weight="700" fill="#0f172a">cute</text>
+<rect x="219" y="422" width="54" height="26" rx="13" fill="#fff7e0" stroke="#e8820c" stroke-width="1.6"/>
+<text x="246" y="440" text-anchor="middle" font-size="14" font-weight="800" fill="#7c2d12" font-family="'SF Mono',Menlo,Consolas,monospace">8%</text>
+<rect x="334" y="372" width="96" height="40" rx="12" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.6" filter="url(#sh)"/>
+<text x="382" y="398" text-anchor="middle" font-size="17" font-weight="700" fill="#0f172a">teddy</text>
+<rect x="355" y="422" width="54" height="26" rx="13" fill="#fff7e0" stroke="#e8820c" stroke-width="1.6"/>
+<text x="382" y="440" text-anchor="middle" font-size="14" font-weight="800" fill="#7c2d12" font-family="'SF Mono',Menlo,Consolas,monospace">13%</text>
+<rect x="470" y="372" width="96" height="40" rx="12" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.6" filter="url(#sh)"/>
+<text x="518" y="398" text-anchor="middle" font-size="17" font-weight="700" fill="#0f172a">bear</text>
+<rect x="491" y="422" width="54" height="26" rx="13" fill="#ffd27a" stroke="#e8820c" stroke-width="1.6"/>
+<text x="518" y="440" text-anchor="middle" font-size="14" font-weight="800" fill="#7c2d12" font-family="'SF Mono',Menlo,Consolas,monospace">55%</text>
+<rect x="606" y="372" width="96" height="40" rx="12" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.6" filter="url(#sh)"/>
+<text x="654" y="398" text-anchor="middle" font-size="17" font-weight="700" fill="#0f172a">is</text>
+<rect x="627" y="422" width="54" height="26" rx="13" fill="#fff7e0" stroke="#e8820c" stroke-width="1.6"/>
+<text x="654" y="440" text-anchor="middle" font-size="14" font-weight="800" fill="#7c2d12" font-family="'SF Mono',Menlo,Consolas,monospace">12%</text>
+<rect x="742" y="372" width="96" height="40" rx="12" fill="#fff3d6" stroke="#e8820c" stroke-width="2.4" filter="url(#sh)"/>
+<text x="790" y="398" text-anchor="middle" font-size="17" font-weight="700" fill="#0f172a">reading</text>
+<rect x="763" y="422" width="54" height="26" rx="13" fill="#fff7e0" stroke="#e8820c" stroke-width="1.6"/>
+<text x="790" y="440" text-anchor="middle" font-size="14" font-weight="800" fill="#7c2d12" font-family="'SF Mono',Menlo,Consolas,monospace">8%</text>
+<text x="450" y="486" text-anchor="middle" font-size="12.5" font-style="italic" fill="#475569">Illustrative weights. They sum to 100%. How they are computed comes in section 2.</text>
+</svg>

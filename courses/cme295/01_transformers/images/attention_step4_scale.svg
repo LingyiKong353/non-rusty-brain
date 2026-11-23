@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 420" width="900" height="420" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif">
+<defs><marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#475569"/></marker><filter id="sh" x="-10%" y="-10%" width="120%" height="130%"><feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#0f172a" flood-opacity="0.12"/></filter></defs>
+<rect x="1" y="1" width="898" height="418" rx="22" fill="#fcfcfd" stroke="#e2e8f0" stroke-width="2"/>
+<rect x="22" y="14" width="242" height="30" rx="15" fill="#ffe7a3"/>
+<text x="143" y="34" text-anchor="middle" font-size="15" font-weight="700" fill="#92400e">Step 4: scale the scores</text>
+<rect x="44" y="64" width="320" height="290" rx="18" fill="#fff" stroke="#e2e8f0" stroke-width="1.6" filter="url(#sh)"/>
+<text x="204" y="90" text-anchor="middle" font-size="14.5" font-weight="800" fill="#92400e">scores  s</text>
+<line x1="54" y1="230" x2="360" y2="230" stroke="#94a3b8" stroke-width="1.6"/>
+<rect x="60" y="230.0" width="54" height="38.0" rx="6" fill="#fde2e2" stroke="#ef4444" stroke-width="1.6"/>
+<text x="87" y="286.0" text-anchor="middle" font-size="13.5" font-weight="800" fill="#0f172a" font-family="'SF Mono',Menlo,Consolas,monospace">−0.73</text>
+<text x="87" y="332" text-anchor="middle" font-size="13.5" font-weight="700" fill="#0f172a">A</text>
+<rect x="138" y="158.8" width="54" height="71.2" rx="6" fill="#ffe3a8" stroke="#f2c261" stroke-width="1.6"/>
+<text x="165" y="150.8" text-anchor="middle" font-size="13.5" font-weight="800" fill="#0f172a" font-family="'SF Mono',Menlo,Consolas,monospace">1.37</text>
+<text x="165" y="332" text-anchor="middle" font-size="13.5" font-weight="700" fill="#0f172a">cute</text>
+<rect x="216" y="122.9" width="54" height="107.1" rx="6" fill="#ffe3a8" stroke="#f2c261" stroke-width="1.6"/>
+<text x="243" y="114.9" text-anchor="middle" font-size="13.5" font-weight="800" fill="#0f172a" font-family="'SF Mono',Menlo,Consolas,monospace">2.06</text>
+<text x="243" y="332" text-anchor="middle" font-size="13.5" font-weight="700" fill="#0f172a">teddy</text>
+<rect x="294" y="222.7" width="54" height="7.3" rx="6" fill="#ffe3a8" stroke="#f2c261" stroke-width="1.6"/>
+<text x="321" y="214.7" text-anchor="middle" font-size="13.5" font-weight="800" fill="#0f172a" font-family="'SF Mono',Menlo,Consolas,monospace">0.14</text>
+<text x="321" y="332" text-anchor="middle" font-size="13.5" font-weight="700" fill="#0f172a">bear</text>
+<rect x="524" y="64" width="320" height="290" rx="18" fill="#fff" stroke="#e2e8f0" stroke-width="1.6" filter="url(#sh)"/>
+<text x="684" y="90" text-anchor="middle" font-size="14.5" font-weight="800" fill="#92400e">scaled scores  s / √dₖ</text>
+<line x1="534" y1="230" x2="840" y2="230" stroke="#94a3b8" stroke-width="1.6"/>
+<rect x="540" y="230.0" width="54" height="26.8" rx="6" fill="#fde2e2" stroke="#ef4444" stroke-width="1.6"/>
+<text x="567" y="274.8" text-anchor="middle" font-size="13.5" font-weight="800" fill="#0f172a" font-family="'SF Mono',Menlo,Consolas,monospace">−0.52</text>
+<text x="567" y="332" text-anchor="middle" font-size="13.5" font-weight="700" fill="#0f172a">A</text>
+<rect x="618" y="179.6" width="54" height="50.4" rx="6" fill="#ffe3a8" stroke="#f2c261" stroke-width="1.6"/>
+<text x="645" y="171.6" text-anchor="middle" font-size="13.5" font-weight="800" fill="#0f172a" font-family="'SF Mono',Menlo,Consolas,monospace">0.97</text>
+<text x="645" y="332" text-anchor="middle" font-size="13.5" font-weight="700" fill="#0f172a">cute</text>
+<rect x="696" y="154.3" width="54" height="75.7" rx="6" fill="#ffe3a8" stroke="#f2c261" stroke-width="1.6"/>
+<text x="723" y="146.3" text-anchor="middle" font-size="13.5" font-weight="800" fill="#0f172a" font-family="'SF Mono',Menlo,Consolas,monospace">1.46</text>
+<text x="723" y="332" text-anchor="middle" font-size="13.5" font-weight="700" fill="#0f172a">teddy</text>
+<rect x="774" y="224.9" width="54" height="5.1" rx="6" fill="#ffe3a8" stroke="#f2c261" stroke-width="1.6"/>
+<text x="801" y="216.9" text-anchor="middle" font-size="13.5" font-weight="800" fill="#0f172a" font-family="'SF Mono',Menlo,Consolas,monospace">0.10</text>
+<text x="801" y="332" text-anchor="middle" font-size="13.5" font-weight="700" fill="#0f172a">bear</text>
+<line x1="388" y1="210" x2="516" y2="210" stroke="#475569" stroke-width="2.6" marker-end="url(#ah)"/>
+<text x="452" y="190" text-anchor="middle" font-size="14" font-weight="800" fill="#475569">÷ √2</text>
+<text x="452" y="234" text-anchor="middle" font-size="12.5" fill="#475569">= ÷ 1.41</text>
+<text x="452" y="252" text-anchor="middle" font-size="12.5" fill="#475569">(dₖ = 2)</text>
+<text x="450" y="402" text-anchor="middle" font-size="12.5" font-style="italic" fill="#475569">Every score shrinks by the same factor. The order does not change.</text>
+</svg>
