@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 380" width="960" height="380" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif">
+<defs><marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#475569"/></marker><filter id="sh" x="-10%" y="-10%" width="120%" height="130%"><feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#0f172a" flood-opacity="0.12"/></filter></defs>
+<rect x="1" y="1" width="958" height="378" rx="22" fill="#fcfcfd" stroke="#e2e8f0" stroke-width="2"/>
+<rect x="22" y="14" width="448" height="30" rx="15" fill="#ffe7a3"/>
+<text x="246" y="34" text-anchor="middle" font-size="15" font-weight="700" fill="#92400e">“ours” looks at the English tokens, step by step</text>
+<text x="176.0" y="153.0" text-anchor="end" font-size="13" font-weight="800" fill="#0f172a" >A</text>
+<text x="176.0" y="189.0" text-anchor="end" font-size="13" font-weight="800" fill="#0f172a" >cute</text>
+<text x="176.0" y="225.0" text-anchor="end" font-size="13" font-weight="800" fill="#0f172a" >teddy</text>
+<text x="176.0" y="261.0" text-anchor="end" font-size="13" font-weight="800" fill="#0f172a" >bear</text>
+<text x="270.0" y="82.0" text-anchor="middle" font-size="14.5" font-weight="800" fill="#0f172a" >1. Scores</text>
+<text x="270.0" y="102.0" text-anchor="middle" font-size="12" font-weight="600" fill="#475569" font-family="'SF Mono',Menlo,Consolas,monospace">query · key</text>
+<g filter="url(#sh)"><rect x="215" y="130" width="110" height="144" rx="6" fill="#fff"/></g>
+<rect x="215" y="130" width="110" height="36" fill="#fff3d6" stroke="#f2c261" stroke-width="1.2"/>
+<text x="270.0" y="153.0" text-anchor="middle" font-size="13" font-weight="700" fill="#0f172a" font-family="'SF Mono',Menlo,Consolas,monospace">0.20</text>
+<rect x="215" y="166" width="110" height="36" fill="#fff3d6" stroke="#f2c261" stroke-width="1.2"/>
+<text x="270.0" y="189.0" text-anchor="middle" font-size="13" font-weight="700" fill="#0f172a" font-family="'SF Mono',Menlo,Consolas,monospace">0.20</text>
+<rect x="215" y="202" width="110" height="36" fill="#fff3d6" stroke="#f2c261" stroke-width="1.2"/>
+<text x="270.0" y="225.0" text-anchor="middle" font-size="13" font-weight="700" fill="#0f172a" font-family="'SF Mono',Menlo,Consolas,monospace">−0.40</text>
+<rect x="215" y="238" width="110" height="36" fill="#fff3d6" stroke="#f2c261" stroke-width="1.2"/>
+<text x="270.0" y="261.0" text-anchor="middle" font-size="13" font-weight="700" fill="#0f172a" font-family="'SF Mono',Menlo,Consolas,monospace">1.40</text>
+<text x="435.0" y="82.0" text-anchor="middle" font-size="14.5" font-weight="800" fill="#0f172a" >2. Scale</text>
+<text x="435.0" y="102.0" text-anchor="middle" font-size="12" font-weight="600" fill="#475569" font-family="'SF Mono',Menlo,Consolas,monospace">÷ √2</text>
+<g filter="url(#sh)"><rect x="380" y="130" width="110" height="144" rx="6" fill="#fff"/></g>
+<rect x="380" y="130" width="110" height="36" fill="#fff3d6" stroke="#f2c261" stroke-width="1.2"/>
+<text x="435.0" y="153.0" text-anchor="middle" font-size="13" font-weight="700" fill="#0f172a" font-family="'SF Mono',Menlo,Consolas,monospace">0.14</text>
+<rect x="380" y="166" width="110" height="36" fill="#fff3d6" stroke="#f2c261" stroke-width="1.2"/>
+<text x="435.0" y="189.0" text-anchor="middle" font-size="13" font-weight="700" fill="#0f172a" font-family="'SF Mono',Menlo,Consolas,monospace">0.14</text>
+<rect x="380" y="202" width="110" height="36" fill="#fff3d6" stroke="#f2c261" stroke-width="1.2"/>
+<text x="435.0" y="225.0" text-anchor="middle" font-size="13" font-weight="700" fill="#0f172a" font-family="'SF Mono',Menlo,Consolas,monospace">−0.28</text>
+<rect x="380" y="238" width="110" height="36" fill="#fff3d6" stroke="#f2c261" stroke-width="1.2"/>
+<text x="435.0" y="261.0" text-anchor="middle" font-size="13" font-weight="700" fill="#0f172a" font-family="'SF Mono',Menlo,Consolas,monospace">0.99</text>
+<text x="600.0" y="82.0" text-anchor="middle" font-size="14.5" font-weight="800" fill="#0f172a" >3. Softmax</text>
+<text x="600.0" y="102.0" text-anchor="middle" font-size="12" font-weight="600" fill="#475569" font-family="'SF Mono',Menlo,Consolas,monospace">adds up to 1</text>
+<g filter="url(#sh)"><rect x="545" y="130" width="110" height="144" rx="6" fill="#fff"/></g>
+<rect x="545" y="130" width="110" height="36" fill="#fff3d6" stroke="#f2c261" stroke-width="1.2"/>
+<rect x="546" y="131" width="34.6" height="34" fill="#2563eb" opacity="0.4"/>
+<text x="600.0" y="153.0" text-anchor="middle" font-size="13" font-weight="700" fill="#0f172a" font-family="'SF Mono',Menlo,Consolas,monospace">0.20</text>
+<rect x="545" y="166" width="110" height="36" fill="#fff3d6" stroke="#f2c261" stroke-width="1.2"/>
+<rect x="546" y="167" width="34.6" height="34" fill="#2563eb" opacity="0.4"/>
+<text x="600.0" y="189.0" text-anchor="middle" font-size="13" font-weight="700" fill="#0f172a" font-family="'SF Mono',Menlo,Consolas,monospace">0.20</text>
+<rect x="545" y="202" width="110" height="36" fill="#fff3d6" stroke="#f2c261" stroke-width="1.2"/>
+<rect x="546" y="203" width="22.7" height="34" fill="#2563eb" opacity="0.4"/>
+<text x="600.0" y="225.0" text-anchor="middle" font-size="13" font-weight="700" fill="#0f172a" font-family="'SF Mono',Menlo,Consolas,monospace">0.13</text>
+<rect x="545" y="238" width="110" height="36" fill="#fff3d6" stroke="#f2c261" stroke-width="1.2"/>
+<rect x="546" y="239" width="80.9" height="34" fill="#2563eb" opacity="0.85"/>
+<text x="600.0" y="261.0" text-anchor="middle" font-size="13" font-weight="700" fill="#0f172a" font-family="'SF Mono',Menlo,Consolas,monospace">0.47</text>
+<line x1="333" y1="202" x2="372" y2="202" stroke="#475569" stroke-width="2.2" marker-end="url(#ah)"/>
+<line x1="498" y1="202" x2="537" y2="202" stroke="#475569" stroke-width="2.2" marker-end="url(#ah)"/>
+<line x1="663" y1="202" x2="722" y2="202" stroke="#475569" stroke-width="2.2" marker-end="url(#ah)"/>
+<text x="805.0" y="82.0" text-anchor="middle" font-size="14.5" font-weight="800" fill="#0f172a" >4. Mix</text>
+<text x="805.0" y="102.0" text-anchor="middle" font-size="12" font-weight="600" fill="#475569" font-family="'SF Mono',Menlo,Consolas,monospace">weights × values</text>
+<g filter="url(#sh)"><rect x="735" y="184" width="140" height="36" rx="6" fill="#fff"/></g>
+<rect x="735" y="184" width="70" height="36" fill="#dcfce7" stroke="#86efac" stroke-width="1.2"/>
+<text x="770.0" y="207.0" text-anchor="middle" font-size="13" font-weight="700" fill="#0f172a" font-family="'SF Mono',Menlo,Consolas,monospace">0.72</text>
+<rect x="805" y="184" width="70" height="36" fill="#dcfce7" stroke="#86efac" stroke-width="1.2"/>
+<text x="840.0" y="207.0" text-anchor="middle" font-size="13" font-weight="700" fill="#0f172a" font-family="'SF Mono',Menlo,Consolas,monospace">0.11</text>
+<text x="805.0" y="240.0" text-anchor="middle" font-size="12.5" font-weight="800" fill="#166534" >new vector for “ours”</text>
+<text x="480.0" y="328.0" text-anchor="middle" font-size="13" font-weight="600" fill="#475569" >Query of “ours” = [0.0, 2.0]. The keys and values are those of the four English tokens.</text>
+<text x="480.0" y="352.0" text-anchor="middle" font-size="13" font-weight="600" fill="#475569" >“bear” gets the biggest share (0.47), so its value counts the most.</text>
+</svg>

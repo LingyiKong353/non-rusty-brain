@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 450" width="960" height="450" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif">
+<defs><marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#475569"/></marker><filter id="sh" x="-10%" y="-10%" width="120%" height="130%"><feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#0f172a" flood-opacity="0.12"/></filter></defs>
+<rect x="1" y="1" width="958" height="448" rx="22" fill="#fcfcfd" stroke="#e2e8f0" stroke-width="2"/>
+<rect x="22" y="14" width="268" height="30" rx="15" fill="#ffe7a3"/>
+<text x="156" y="34" text-anchor="middle" font-size="15" font-weight="700" fill="#92400e">Two heads looking at “bear”</text>
+<text x="114" y="199" text-anchor="middle" font-size="13.5" font-weight="800" fill="#1d4ed8">Input: “bear”</text>
+<g filter="url(#sh)"><rect x="34" y="213" width="160" height="34" rx="6" fill="#fff"/></g>
+<rect x="34" y="213" width="40" height="34" fill="#e3efff" stroke="#93c5fd" stroke-width="1.2"/>
+<text x="54" y="234" text-anchor="middle" font-size="12.5" font-weight="700" fill="#0f172a" font-family="'SF Mono',Menlo,Consolas,monospace">−0.1</text>
+<rect x="74" y="213" width="40" height="34" fill="#e3efff" stroke="#93c5fd" stroke-width="1.2"/>
+<text x="94" y="234" text-anchor="middle" font-size="12.5" font-weight="700" fill="#0f172a" font-family="'SF Mono',Menlo,Consolas,monospace">0.9</text>
+<rect x="114" y="213" width="40" height="34" fill="#e3efff" stroke="#93c5fd" stroke-width="1.2"/>
+<text x="134" y="234" text-anchor="middle" font-size="12.5" font-weight="700" fill="#0f172a" font-family="'SF Mono',Menlo,Consolas,monospace">0.4</text>
+<rect x="154" y="213" width="40" height="34" fill="#e3efff" stroke="#93c5fd" stroke-width="1.2"/>
+<text x="174" y="234" text-anchor="middle" font-size="12.5" font-weight="700" fill="#0f172a" font-family="'SF Mono',Menlo,Consolas,monospace">0.2</text>
+<line x1="200" y1="230" x2="262" y2="150" stroke="#475569" stroke-width="2.2" marker-end="url(#ah)"/>
+<g filter="url(#sh)"><rect x="268" y="119" width="150" height="62" rx="12" fill="#dbeafe" stroke="#93c5fd" stroke-width="2"/></g>
+<text x="343" y="145" text-anchor="middle" font-size="15" font-weight="800" fill="#2563eb">Head 1</text>
+<text x="343" y="166" text-anchor="middle" font-size="11.5" fill="#475569" font-family="'SF Mono',Menlo,Consolas,monospace">own W_Q, W_K, W_V</text>
+<line x1="420" y1="150" x2="458" y2="150" stroke="#475569" stroke-width="2.2" marker-end="url(#ah)"/>
+<text x="470" y="90" font-size="12.5" font-weight="800" fill="#2563eb">weights of “bear”</text>
+<rect x="470" y="191.6" width="44" height="10.4" rx="5" fill="#2563eb" opacity="0.45"/>
+<text x="492" y="185.6" text-anchor="middle" font-size="12.5" font-weight="700" fill="#0f172a" font-family="'SF Mono',Menlo,Consolas,monospace">0.07</text>
+<text x="492" y="219" text-anchor="middle" font-size="12.5" font-weight="700" fill="#0f172a">A</text>
+<rect x="536" y="156.2" width="44" height="45.8" rx="5" fill="#2563eb" opacity="0.45"/>
+<text x="558" y="150.2" text-anchor="middle" font-size="12.5" font-weight="700" fill="#0f172a" font-family="'SF Mono',Menlo,Consolas,monospace">0.31</text>
+<text x="558" y="219" text-anchor="middle" font-size="12.5" font-weight="700" fill="#0f172a">cute</text>
+<rect x="602" y="127.4" width="44" height="74.6" rx="5" fill="#2563eb" opacity="1"/>
+<text x="624" y="121.4" text-anchor="middle" font-size="12.5" font-weight="700" fill="#0f172a" font-family="'SF Mono',Menlo,Consolas,monospace">0.50</text>
+<text x="624" y="219" text-anchor="middle" font-size="12.5" font-weight="700" fill="#0f172a">teddy</text>
+<rect x="668" y="182.8" width="44" height="19.2" rx="5" fill="#2563eb" opacity="0.45"/>
+<text x="690" y="176.8" text-anchor="middle" font-size="12.5" font-weight="700" fill="#0f172a" font-family="'SF Mono',Menlo,Consolas,monospace">0.13</text>
+<text x="690" y="219" text-anchor="middle" font-size="12.5" font-weight="700" fill="#0f172a">bear</text>
+<line x1="464" y1="202" x2="718" y2="202" stroke="#cbd5e1" stroke-width="1.5"/>
+<line x1="732" y1="150" x2="784" y2="150" stroke="#475569" stroke-width="2.2" marker-end="url(#ah)"/>
+<text x="758" y="170" text-anchor="middle" font-size="11.5" font-weight="700" fill="#475569">mix of values</text>
+<text x="834" y="122" text-anchor="middle" font-size="13.5" font-weight="800" fill="#2563eb">Output of head 1</text>
+<g filter="url(#sh)"><rect x="794" y="133" width="80" height="34" rx="6" fill="#fff"/></g>
+<rect x="794" y="133" width="40" height="34" fill="#dbeafe" stroke="#93c5fd" stroke-width="1.2"/>
+<text x="814" y="154" text-anchor="middle" font-size="12.5" font-weight="700" fill="#0f172a" font-family="'SF Mono',Menlo,Consolas,monospace">0.21</text>
+<rect x="834" y="133" width="40" height="34" fill="#dbeafe" stroke="#93c5fd" stroke-width="1.2"/>
+<text x="854" y="154" text-anchor="middle" font-size="12.5" font-weight="700" fill="#0f172a" font-family="'SF Mono',Menlo,Consolas,monospace">0.40</text>
+<line x1="200" y1="230" x2="262" y2="330" stroke="#475569" stroke-width="2.2" marker-end="url(#ah)"/>
+<g filter="url(#sh)"><rect x="268" y="299" width="150" height="62" rx="12" fill="#ede9fe" stroke="#c4b5fd" stroke-width="2"/></g>
+<text x="343" y="325" text-anchor="middle" font-size="15" font-weight="800" fill="#7c3aed">Head 2</text>
+<text x="343" y="346" text-anchor="middle" font-size="11.5" fill="#475569" font-family="'SF Mono',Menlo,Consolas,monospace">own W_Q, W_K, W_V</text>
+<line x1="420" y1="330" x2="458" y2="330" stroke="#475569" stroke-width="2.2" marker-end="url(#ah)"/>
+<text x="470" y="270" font-size="12.5" font-weight="800" fill="#7c3aed">weights of “bear”</text>
+<rect x="470" y="364.1" width="44" height="17.9" rx="5" fill="#7c3aed" opacity="0.45"/>
+<text x="492" y="358.1" text-anchor="middle" font-size="12.5" font-weight="700" fill="#0f172a" font-family="'SF Mono',Menlo,Consolas,monospace">0.12</text>
+<text x="492" y="399" text-anchor="middle" font-size="12.5" font-weight="700" fill="#0f172a">A</text>
+<rect x="536" y="309.7" width="44" height="72.3" rx="5" fill="#7c3aed" opacity="1"/>
+<text x="558" y="303.7" text-anchor="middle" font-size="12.5" font-weight="700" fill="#0f172a" font-family="'SF Mono',Menlo,Consolas,monospace">0.48</text>
+<text x="558" y="399" text-anchor="middle" font-size="12.5" font-weight="700" fill="#0f172a">cute</text>
+<rect x="602" y="353.6" width="44" height="28.4" rx="5" fill="#7c3aed" opacity="0.45"/>
+<text x="624" y="347.6" text-anchor="middle" font-size="12.5" font-weight="700" fill="#0f172a" font-family="'SF Mono',Menlo,Consolas,monospace">0.19</text>
+<text x="624" y="399" text-anchor="middle" font-size="12.5" font-weight="700" fill="#0f172a">teddy</text>
+<rect x="668" y="350.6" width="44" height="31.4" rx="5" fill="#7c3aed" opacity="0.45"/>
+<text x="690" y="344.6" text-anchor="middle" font-size="12.5" font-weight="700" fill="#0f172a" font-family="'SF Mono',Menlo,Consolas,monospace">0.21</text>
+<text x="690" y="399" text-anchor="middle" font-size="12.5" font-weight="700" fill="#0f172a">bear</text>
+<line x1="464" y1="382" x2="718" y2="382" stroke="#cbd5e1" stroke-width="1.5"/>
+<line x1="732" y1="330" x2="784" y2="330" stroke="#475569" stroke-width="2.2" marker-end="url(#ah)"/>
+<text x="758" y="350" text-anchor="middle" font-size="11.5" font-weight="700" fill="#475569">mix of values</text>
+<text x="834" y="302" text-anchor="middle" font-size="13.5" font-weight="800" fill="#7c3aed">Output of head 2</text>
+<g filter="url(#sh)"><rect x="794" y="313" width="80" height="34" rx="6" fill="#fff"/></g>
+<rect x="794" y="313" width="40" height="34" fill="#ede9fe" stroke="#c4b5fd" stroke-width="1.2"/>
+<text x="814" y="334" text-anchor="middle" font-size="12.5" font-weight="700" fill="#0f172a" font-family="'SF Mono',Menlo,Consolas,monospace">0.59</text>
+<rect x="834" y="313" width="40" height="34" fill="#ede9fe" stroke="#c4b5fd" stroke-width="1.2"/>
+<text x="854" y="334" text-anchor="middle" font-size="12.5" font-weight="700" fill="#0f172a" font-family="'SF Mono',Menlo,Consolas,monospace">0.46</text>
+<text x="480" y="430" text-anchor="middle" font-size="13" fill="#475569">Same input, two sets of weights. Head 1 listens mostly to “teddy”, head 2 mostly to “cute”, and each gives its own output.</text>
+</svg>
