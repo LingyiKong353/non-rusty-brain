@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1540 320" width="1540" height="320" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif">
+<defs><marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#475569"/></marker><filter id="sh" x="-10%" y="-10%" width="120%" height="130%"><feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#0f172a" flood-opacity="0.12"/></filter></defs>
+<rect x="1" y="1" width="1538" height="318" rx="22" fill="#fcfcfd" stroke="#e2e8f0" stroke-width="2"/>
+<rect x="22" y="14" width="251" height="30" rx="15" fill="#ffe7a3"/>
+<text x="147" y="34" text-anchor="middle" font-size="15" font-weight="700" fill="#92400e">One decoder layer, “ours”</text>
+<rect x="222" y="96" width="386" height="2" fill="#f2c261"/>
+<text x="420.0" y="88.0" text-anchor="middle" font-size="12" font-weight="800" fill="#92400e" >Sublayer 1: masked self-attention + Add &amp; Norm</text>
+<rect x="606" y="96" width="386" height="2" fill="#5eead4"/>
+<text x="804.0" y="88.0" text-anchor="middle" font-size="12" font-weight="800" fill="#0f766e" >Sublayer 2: cross-attention + Add &amp; Norm</text>
+<rect x="990" y="96" width="386" height="2" fill="#a78bfa"/>
+<text x="1188.0" y="88.0" text-anchor="middle" font-size="12" font-weight="800" fill="#5b21b6" >Sublayer 3: feed-forward + Add &amp; Norm</text>
+<text x="132.0" y="146.0" text-anchor="middle" font-size="12" font-weight="800" fill="#1d4ed8" font-family="'SF Mono',Menlo,Consolas,monospace">x</text>
+<g filter="url(#sh)"><rect x="40" y="160" width="184" height="32" rx="5" fill="#fff"/></g>
+<rect x="40" y="160" width="46" height="32" fill="#dbeafe" stroke="#93c5fd" stroke-width="1"/>
+<text x="63.0" y="180.0" text-anchor="middle" font-size="11" font-weight="700" fill="#0f172a" font-family="'SF Mono',Menlo,Consolas,monospace">0.50</text>
+<rect x="86" y="160" width="46" height="32" fill="#dbeafe" stroke="#93c5fd" stroke-width="1"/>
+<text x="109.0" y="180.0" text-anchor="middle" font-size="11" font-weight="700" fill="#0f172a" font-family="'SF Mono',Menlo,Consolas,monospace">−0.10</text>
+<rect x="132" y="160" width="46" height="32" fill="#dbeafe" stroke="#93c5fd" stroke-width="1"/>
+<text x="155.0" y="180.0" text-anchor="middle" font-size="11" font-weight="700" fill="#0f172a" font-family="'SF Mono',Menlo,Consolas,monospace">0.40</text>
+<rect x="178" y="160" width="46" height="32" fill="#dbeafe" stroke="#93c5fd" stroke-width="1"/>
+<text x="201.0" y="180.0" text-anchor="middle" font-size="11" font-weight="700" fill="#0f172a" font-family="'SF Mono',Menlo,Consolas,monospace">0.20</text>
+<line x1="226" y1="176" x2="228" y2="176" stroke="#475569" stroke-width="2.2" marker-end="url(#ah)"/>
+<text x="324.0" y="146.0" text-anchor="middle" font-size="12" font-weight="800" fill="#92400e" font-family="'SF Mono',Menlo,Consolas,monospace">F₁(x)</text>
+<g filter="url(#sh)"><rect x="232" y="160" width="184" height="32" rx="5" fill="#fff"/></g>
+<rect x="232" y="160" width="46" height="32" fill="#fff3d6" stroke="#f2c261" stroke-width="1"/>
+<text x="255.0" y="180.0" text-anchor="middle" font-size="11" font-weight="700" fill="#0f172a" font-family="'SF Mono',Menlo,Consolas,monospace">0.06</text>
+<rect x="278" y="160" width="46" height="32" fill="#fff3d6" stroke="#f2c261" stroke-width="1"/>
+<text x="301.0" y="180.0" text-anchor="middle" font-size="11" font-weight="700" fill="#0f172a" font-family="'SF Mono',Menlo,Consolas,monospace">0.32</text>
+<rect x="324" y="160" width="46" height="32" fill="#fff3d6" stroke="#f2c261" stroke-width="1"/>
+<text x="347.0" y="180.0" text-anchor="middle" font-size="11" font-weight="700" fill="#0f172a" font-family="'SF Mono',Menlo,Consolas,monospace">0.37</text>
+<rect x="370" y="160" width="46" height="32" fill="#fff3d6" stroke="#f2c261" stroke-width="1"/>
+<text x="393.0" y="180.0" text-anchor="middle" font-size="11" font-weight="700" fill="#0f172a" font-family="'SF Mono',Menlo,Consolas,monospace">0.28</text>
+<line x1="418" y1="176" x2="420" y2="176" stroke="#475569" stroke-width="2.2" marker-end="url(#ah)"/>
+<text x="516.0" y="146.0" text-anchor="middle" font-size="12" font-weight="800" fill="#166534" font-family="'SF Mono',Menlo,Consolas,monospace">z₁ = LN(x+F₁)</text>
+<g filter="url(#sh)"><rect x="424" y="160" width="184" height="32" rx="5" fill="#fff"/></g>
+<rect x="424" y="160" width="46" height="32" fill="#dcfce7" stroke="#86efac" stroke-width="1"/>
+<text x="447.0" y="180.0" text-anchor="middle" font-size="11" font-weight="700" fill="#0f172a" font-family="'SF Mono',Menlo,Consolas,monospace">0.28</text>
+<rect x="470" y="160" width="46" height="32" fill="#dcfce7" stroke="#86efac" stroke-width="1"/>
+<text x="493.0" y="180.0" text-anchor="middle" font-size="11" font-weight="700" fill="#0f172a" font-family="'SF Mono',Menlo,Consolas,monospace">−1.45</text>
+<rect x="516" y="160" width="46" height="32" fill="#dcfce7" stroke="#86efac" stroke-width="1"/>
+<text x="539.0" y="180.0" text-anchor="middle" font-size="11" font-weight="700" fill="#0f172a" font-family="'SF Mono',Menlo,Consolas,monospace">1.33</text>
+<rect x="562" y="160" width="46" height="32" fill="#dcfce7" stroke="#86efac" stroke-width="1"/>
+<text x="585.0" y="180.0" text-anchor="middle" font-size="11" font-weight="700" fill="#0f172a" font-family="'SF Mono',Menlo,Consolas,monospace">−0.16</text>
+<line x1="610" y1="176" x2="612" y2="176" stroke="#475569" stroke-width="2.2" marker-end="url(#ah)"/>
+<text x="708.0" y="146.0" text-anchor="middle" font-size="12" font-weight="800" fill="#92400e" font-family="'SF Mono',Menlo,Consolas,monospace">F₂(z₁)</text>
+<g filter="url(#sh)"><rect x="616" y="160" width="184" height="32" rx="5" fill="#fff"/></g>
+<rect x="616" y="160" width="46" height="32" fill="#fff3d6" stroke="#f2c261" stroke-width="1"/>
+<text x="639.0" y="180.0" text-anchor="middle" font-size="11" font-weight="700" fill="#0f172a" font-family="'SF Mono',Menlo,Consolas,monospace">−0.21</text>
+<rect x="662" y="160" width="46" height="32" fill="#fff3d6" stroke="#f2c261" stroke-width="1"/>
+<text x="685.0" y="180.0" text-anchor="middle" font-size="11" font-weight="700" fill="#0f172a" font-family="'SF Mono',Menlo,Consolas,monospace">−0.12</text>
+<rect x="708" y="160" width="46" height="32" fill="#fff3d6" stroke="#f2c261" stroke-width="1"/>
+<text x="731.0" y="180.0" text-anchor="middle" font-size="11" font-weight="700" fill="#0f172a" font-family="'SF Mono',Menlo,Consolas,monospace">0.35</text>
+<rect x="754" y="160" width="46" height="32" fill="#fff3d6" stroke="#f2c261" stroke-width="1"/>
+<text x="777.0" y="180.0" text-anchor="middle" font-size="11" font-weight="700" fill="#0f172a" font-family="'SF Mono',Menlo,Consolas,monospace">−0.35</text>
+<line x1="802" y1="176" x2="804" y2="176" stroke="#475569" stroke-width="2.2" marker-end="url(#ah)"/>
+<text x="900.0" y="146.0" text-anchor="middle" font-size="12" font-weight="800" fill="#0f766e" font-family="'SF Mono',Menlo,Consolas,monospace">z₂ = LN(z₁+F₂)</text>
+<g filter="url(#sh)"><rect x="808" y="160" width="184" height="32" rx="5" fill="#fff"/></g>
+<rect x="808" y="160" width="46" height="32" fill="#ccfbf1" stroke="#5eead4" stroke-width="1"/>
+<text x="831.0" y="180.0" text-anchor="middle" font-size="11" font-weight="700" fill="#0f172a" font-family="'SF Mono',Menlo,Consolas,monospace">0.13</text>
+<rect x="854" y="160" width="46" height="32" fill="#ccfbf1" stroke="#5eead4" stroke-width="1"/>
+<text x="877.0" y="180.0" text-anchor="middle" font-size="11" font-weight="700" fill="#0f172a" font-family="'SF Mono',Menlo,Consolas,monospace">−1.27</text>
+<rect x="900" y="160" width="46" height="32" fill="#ccfbf1" stroke="#5eead4" stroke-width="1"/>
+<text x="923.0" y="180.0" text-anchor="middle" font-size="11" font-weight="700" fill="#0f172a" font-family="'SF Mono',Menlo,Consolas,monospace">1.50</text>
+<rect x="946" y="160" width="46" height="32" fill="#ccfbf1" stroke="#5eead4" stroke-width="1"/>
+<text x="969.0" y="180.0" text-anchor="middle" font-size="11" font-weight="700" fill="#0f172a" font-family="'SF Mono',Menlo,Consolas,monospace">−0.37</text>
+<line x1="994" y1="176" x2="996" y2="176" stroke="#475569" stroke-width="2.2" marker-end="url(#ah)"/>
+<text x="1092.0" y="146.0" text-anchor="middle" font-size="12" font-weight="800" fill="#92400e" font-family="'SF Mono',Menlo,Consolas,monospace">F₃(z₂)</text>
+<g filter="url(#sh)"><rect x="1000" y="160" width="184" height="32" rx="5" fill="#fff"/></g>
+<rect x="1000" y="160" width="46" height="32" fill="#fff3d6" stroke="#f2c261" stroke-width="1"/>
+<text x="1023.0" y="180.0" text-anchor="middle" font-size="11" font-weight="700" fill="#0f172a" font-family="'SF Mono',Menlo,Consolas,monospace">2.43</text>
+<rect x="1046" y="160" width="46" height="32" fill="#fff3d6" stroke="#f2c261" stroke-width="1"/>
+<text x="1069.0" y="180.0" text-anchor="middle" font-size="11" font-weight="700" fill="#0f172a" font-family="'SF Mono',Menlo,Consolas,monospace">3.50</text>
+<rect x="1092" y="160" width="46" height="32" fill="#fff3d6" stroke="#f2c261" stroke-width="1"/>
+<text x="1115.0" y="180.0" text-anchor="middle" font-size="11" font-weight="700" fill="#0f172a" font-family="'SF Mono',Menlo,Consolas,monospace">1.86</text>
+<rect x="1138" y="160" width="46" height="32" fill="#fff3d6" stroke="#f2c261" stroke-width="1"/>
+<text x="1161.0" y="180.0" text-anchor="middle" font-size="11" font-weight="700" fill="#0f172a" font-family="'SF Mono',Menlo,Consolas,monospace">−1.40</text>
+<line x1="1186" y1="176" x2="1188" y2="176" stroke="#475569" stroke-width="2.2" marker-end="url(#ah)"/>
+<text x="1284.0" y="146.0" text-anchor="middle" font-size="12" font-weight="800" fill="#5b21b6" font-family="'SF Mono',Menlo,Consolas,monospace">z₃ = LN(z₂+F₃)</text>
+<g filter="url(#sh)"><rect x="1192" y="160" width="184" height="32" rx="5" fill="#fff"/></g>
+<rect x="1192" y="160" width="46" height="32" fill="#ede9fe" stroke="#c4b5fd" stroke-width="1"/>
+<text x="1215.0" y="180.0" text-anchor="middle" font-size="11" font-weight="700" fill="#0f172a" font-family="'SF Mono',Menlo,Consolas,monospace">0.49</text>
+<rect x="1238" y="160" width="46" height="32" fill="#ede9fe" stroke="#c4b5fd" stroke-width="1"/>
+<text x="1261.0" y="180.0" text-anchor="middle" font-size="11" font-weight="700" fill="#0f172a" font-family="'SF Mono',Menlo,Consolas,monospace">0.32</text>
+<rect x="1284" y="160" width="46" height="32" fill="#ede9fe" stroke="#c4b5fd" stroke-width="1"/>
+<text x="1307.0" y="180.0" text-anchor="middle" font-size="11" font-weight="700" fill="#0f172a" font-family="'SF Mono',Menlo,Consolas,monospace">0.89</text>
+<rect x="1330" y="160" width="46" height="32" fill="#ede9fe" stroke="#c4b5fd" stroke-width="1"/>
+<text x="1353.0" y="180.0" text-anchor="middle" font-size="11" font-weight="700" fill="#0f172a" font-family="'SF Mono',Menlo,Consolas,monospace">−1.69</text>
+<text x="132.0" y="214.0" text-anchor="middle" font-size="10.5" font-weight="600" fill="#475569" >decoder</text>
+<text x="132.0" y="228.0" text-anchor="middle" font-size="10.5" font-weight="600" fill="#475569" >embedding</text>
+<text x="324.0" y="214.0" text-anchor="middle" font-size="10.5" font-weight="600" fill="#475569" >masked</text>
+<text x="324.0" y="228.0" text-anchor="middle" font-size="10.5" font-weight="600" fill="#475569" >self-attention</text>
+<text x="516.0" y="214.0" text-anchor="middle" font-size="10.5" font-weight="600" fill="#475569" >Add &amp; Norm</text>
+<text x="708.0" y="214.0" text-anchor="middle" font-size="10.5" font-weight="600" fill="#475569" >cross-attention</text>
+<text x="708.0" y="228.0" text-anchor="middle" font-size="10.5" font-weight="600" fill="#475569" >(into encoder)</text>
+<text x="900.0" y="214.0" text-anchor="middle" font-size="10.5" font-weight="600" fill="#475569" >Add &amp; Norm</text>
+<text x="1092.0" y="214.0" text-anchor="middle" font-size="10.5" font-weight="600" fill="#475569" >feed-forward</text>
+<text x="1284.0" y="214.0" text-anchor="middle" font-size="10.5" font-weight="600" fill="#475569" >Add &amp; Norm</text>
+<text x="770.0" y="292.0" text-anchor="middle" font-size="12.5" font-weight="600" fill="#475569" >French so far: Un, ours. Cross-attention puts the most weight on English “bear” (0.37). z₃ feeds the next decoder layer.</text>
+</svg>

@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1020" width="1200" height="1020" font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif">
+<defs><marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#64748b"/></marker></defs>
+<rect x="1" y="1" width="1198" height="1018" rx="20" fill="#fafafa" stroke="#e2e8f0" stroke-width="1.5"/>
+<rect x="20" y="18" width="1160" height="86" rx="14" fill="#ffffff" stroke="#e2e8f0" stroke-width="1.5"/>
+<text x="40.0" y="42.0" text-anchor="start" font-size="16" font-weight="700" fill="#1e293b">End to end: the translation problem</text>
+<text x="40.0" y="68.0" text-anchor="start" font-size="14" font-weight="500" fill="#1e293b" font-family="'SF Mono',Menlo,Consolas,monospace">English:  A cute teddy bear is reading.</text>
+<text x="40.0" y="90.0" text-anchor="start" font-size="14" font-weight="500" fill="#1e293b" font-family="'SF Mono',Menlo,Consolas,monospace">French:   Un ours en peluche mignon lit.</text>
+<text x="720.0" y="68.0" text-anchor="start" font-size="13" font-weight="500" fill="#64748b">Write French one word at a time,</text>
+<text x="720.0" y="90.0" text-anchor="start" font-size="13" font-weight="500" fill="#64748b">using what the English sentence means.</text>
+<rect x="20" y="120" width="470" height="780" rx="14" fill="#ffffff" stroke="#e2e8f0" stroke-width="1.5"/>
+<text x="36.0" y="154.0" text-anchor="start" font-size="14" font-weight="700" fill="#334155">1. Encoder — read English once</text>
+<rect x="48" y="172" width="414" height="40" rx="8" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="1.5"/>
+<text x="255.0" y="197.0" text-anchor="middle" font-size="13" font-weight="600" fill="#334155">A   cute   teddy   bear   is   reading</text>
+<line x1="255" y1="214" x2="255" y2="232" stroke="#64748b" stroke-width="1.8" marker-end="url(#ah)"/>
+<rect x="88" y="234" width="334" height="52" rx="8" fill="#f0fdfa" stroke="#99f6e4" stroke-width="1.5"/>
+<text x="255.0" y="256.0" text-anchor="middle" font-size="14" font-weight="700" fill="#0f766e">Embedding + position</text>
+<text x="255.0" y="274.0" text-anchor="middle" font-size="12" font-weight="500" fill="#64748b">words → vectors that know order</text>
+<line x1="255" y1="288" x2="255" y2="306" stroke="#64748b" stroke-width="1.8" marker-end="url(#ah)"/>
+<rect x="48" y="308" width="414" height="150" rx="10" fill="#fff" stroke="#cbd5e1" stroke-width="1.6"/>
+<text x="255.0" y="334.0" text-anchor="middle" font-size="14" font-weight="700" fill="#334155">Encoder layer  × N (= 6)</text>
+<rect x="68" y="352" width="170" height="44" rx="8" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="1.5"/>
+<text x="153.0" y="379.0" text-anchor="middle" font-size="13" font-weight="600" fill="#334155">Self-attention</text>
+<rect x="272" y="352" width="170" height="44" rx="8" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="1.5"/>
+<text x="357.0" y="379.0" text-anchor="middle" font-size="13" font-weight="600" fill="#334155">Feed-forward</text>
+<text x="255.0" y="422.0" text-anchor="middle" font-size="12" font-weight="500" fill="#64748b">each English word looks at every English word</text>
+<text x="255.0" y="442.0" text-anchor="middle" font-size="12" font-weight="500" fill="#64748b">→ one meaning vector per token</text>
+<line x1="255" y1="460" x2="255" y2="478" stroke="#64748b" stroke-width="1.8" marker-end="url(#ah)"/>
+<rect x="48" y="480" width="414" height="64" rx="10" fill="#f0fdfa" stroke="#99f6e4" stroke-width="1.6"/>
+<text x="255.0" y="506.0" text-anchor="middle" font-size="14" font-weight="700" fill="#0f766e">Encoder memory</text>
+<text x="255.0" y="528.0" text-anchor="middle" font-size="12" font-weight="500" fill="#64748b">one vector per English word   (T_enc × d_model)</text>
+<text x="255.0" y="580.0" text-anchor="middle" font-size="13" font-weight="600" fill="#334155">Why: understand the whole English sentence</text>
+<text x="255.0" y="602.0" text-anchor="middle" font-size="13" font-weight="600" fill="#334155">before writing any French.</text>
+<rect x="510" y="120" width="670" height="780" rx="14" fill="#ffffff" stroke="#e2e8f0" stroke-width="1.5"/>
+<text x="526.0" y="154.0" text-anchor="start" font-size="14" font-weight="700" fill="#44403c">2. Decoder — write French step by step</text>
+<rect x="620" y="172" width="340" height="40" rx="8" fill="#fafaf9" stroke="#d6d3d1" stroke-width="1.5"/>
+<text x="790.0" y="189.0" text-anchor="middle" font-size="11" font-weight="600" fill="#44403c">French so far</text>
+<text x="790.0" y="205.0" text-anchor="middle" font-size="13" font-weight="700" fill="#44403c">[BOS]   Un   ours</text>
+<line x1="790" y1="214" x2="790" y2="232" stroke="#64748b" stroke-width="1.8" marker-end="url(#ah)"/>
+<rect x="620" y="234" width="340" height="52" rx="8" fill="#f0fdfa" stroke="#99f6e4" stroke-width="1.5"/>
+<text x="790.0" y="256.0" text-anchor="middle" font-size="14" font-weight="700" fill="#0f766e">Embedding + position</text>
+<text x="790.0" y="274.0" text-anchor="middle" font-size="12" font-weight="500" fill="#64748b">same idea as encoder (own tables)</text>
+<line x1="790" y1="288" x2="790" y2="306" stroke="#64748b" stroke-width="1.8" marker-end="url(#ah)"/>
+<rect x="540" y="308" width="610" height="136" rx="10" fill="#fff" stroke="#d6d3d1" stroke-width="1.6"/>
+<text x="845.0" y="338.0" text-anchor="middle" font-size="14" font-weight="700" fill="#44403c">Decoder layer  × N (= 6)</text>
+<rect x="560" y="352" width="175" height="48" rx="8" fill="#fafaf9" stroke="#d6d3d1" stroke-width="1.5"/>
+<text x="647.0" y="372.0" text-anchor="middle" font-size="12" font-weight="700" fill="#44403c">Masked</text>
+<text x="647.0" y="390.0" text-anchor="middle" font-size="12" font-weight="500" fill="#44403c">self-attention</text>
+<rect x="755" y="352" width="185" height="48" rx="8" fill="#f0fdfa" stroke="#99f6e4" stroke-width="1.6"/>
+<text x="847.0" y="372.0" text-anchor="middle" font-size="12" font-weight="700" fill="#0f766e">Cross-attention</text>
+<text x="847.0" y="390.0" text-anchor="middle" font-size="11" font-weight="500" fill="#0f766e">reads encoder memory</text>
+<rect x="960" y="352" width="170" height="48" rx="8" fill="#fafaf9" stroke="#d6d3d1" stroke-width="1.5"/>
+<text x="1045.0" y="372.0" text-anchor="middle" font-size="12" font-weight="700" fill="#44403c">Feed-forward</text>
+<text x="1045.0" y="390.0" text-anchor="middle" font-size="11" font-weight="500" fill="#44403c">per token</text>
+<text x="845.0" y="416.0" text-anchor="middle" font-size="12" font-weight="500" fill="#64748b">Example: “ours” attends mostly to English “bear”</text>
+<line x1="790" y1="448" x2="790" y2="478" stroke="#64748b" stroke-width="1.8" marker-end="url(#ah)"/>
+<rect x="540" y="480" width="610" height="385" rx="12" fill="#fff" stroke="#86efac" stroke-width="1.8"/>
+<text x="845.0" y="522.0" text-anchor="middle" font-size="14" font-weight="700" fill="#166534">Output step — choose from the French vocabulary</text>
+<rect x="572" y="536" width="546" height="68" rx="8" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="1.5"/>
+<text x="845.0" y="556.0" text-anchor="middle" font-size="13" font-weight="700" fill="#1e293b">“Linear” = score every vocab word   (z × W_out)</text>
+<text x="845.0" y="576.0" text-anchor="middle" font-size="12" font-weight="700" fill="#1e293b" font-family="'SF Mono',Menlo,Consolas,monospace">shapes:  (1 × 4)  ×  (4 × V)  =  (1 × V)</text>
+<text x="845.0" y="594.0" text-anchor="middle" font-size="11" font-weight="500" fill="#64748b">z is one decoder vector; V = vocab size; result = one logit per word</text>
+<line x1="845.0" y1="608" x2="845.0" y2="622" stroke="#64748b" stroke-width="1.8" marker-end="url(#ah)"/>
+<text x="845.0" y="636.0" text-anchor="middle" font-size="11" font-weight="500" fill="#94a3b8">Toy subset of V  (logits: 1 × V; real V is much larger)</text>
+<rect x="572" y="648" width="129" height="48" rx="7" fill="#fff" stroke="#e2e8f0" stroke-width="1.2"/>
+<text x="636.5" y="668.0" text-anchor="middle" font-size="12" font-weight="700" fill="#1e293b">[BOS]</text>
+<text x="636.5" y="686.0" text-anchor="middle" font-size="11" font-weight="600" fill="#64748b" font-family="'SF Mono',Menlo,Consolas,monospace">−0.4</text>
+<rect x="711" y="648" width="129" height="48" rx="7" fill="#fff" stroke="#e2e8f0" stroke-width="1.2"/>
+<text x="775.5" y="668.0" text-anchor="middle" font-size="12" font-weight="700" fill="#1e293b">Un</text>
+<text x="775.5" y="686.0" text-anchor="middle" font-size="11" font-weight="600" fill="#64748b" font-family="'SF Mono',Menlo,Consolas,monospace">−0.1</text>
+<rect x="850" y="648" width="129" height="48" rx="7" fill="#fff" stroke="#e2e8f0" stroke-width="1.2"/>
+<text x="914.5" y="668.0" text-anchor="middle" font-size="12" font-weight="700" fill="#1e293b">ours</text>
+<text x="914.5" y="686.0" text-anchor="middle" font-size="11" font-weight="600" fill="#64748b" font-family="'SF Mono',Menlo,Consolas,monospace">0.3</text>
+<rect x="989" y="648" width="129" height="48" rx="7" fill="#f0fdf4" stroke="#166534" stroke-width="2.0"/>
+<text x="1053.5" y="668.0" text-anchor="middle" font-size="12" font-weight="700" fill="#166534">en</text>
+<text x="1053.5" y="686.0" text-anchor="middle" font-size="11" font-weight="600" fill="#64748b" font-family="'SF Mono',Menlo,Consolas,monospace">2.5</text>
+<rect x="572" y="706" width="129" height="48" rx="7" fill="#fff" stroke="#e2e8f0" stroke-width="1.2"/>
+<text x="636.5" y="726.0" text-anchor="middle" font-size="12" font-weight="700" fill="#1e293b">peluche</text>
+<text x="636.5" y="744.0" text-anchor="middle" font-size="11" font-weight="600" fill="#64748b" font-family="'SF Mono',Menlo,Consolas,monospace">0.1</text>
+<rect x="711" y="706" width="129" height="48" rx="7" fill="#fff" stroke="#e2e8f0" stroke-width="1.2"/>
+<text x="775.5" y="726.0" text-anchor="middle" font-size="12" font-weight="700" fill="#1e293b">mignon</text>
+<text x="775.5" y="744.0" text-anchor="middle" font-size="11" font-weight="600" fill="#64748b" font-family="'SF Mono',Menlo,Consolas,monospace">−0.2</text>
+<rect x="850" y="706" width="129" height="48" rx="7" fill="#fff" stroke="#e2e8f0" stroke-width="1.2"/>
+<text x="914.5" y="726.0" text-anchor="middle" font-size="12" font-weight="700" fill="#1e293b">lit</text>
+<text x="914.5" y="744.0" text-anchor="middle" font-size="11" font-weight="600" fill="#64748b" font-family="'SF Mono',Menlo,Consolas,monospace">−0.3</text>
+<rect x="989" y="706" width="129" height="48" rx="7" fill="#fff" stroke="#e2e8f0" stroke-width="1.2"/>
+<text x="1053.5" y="726.0" text-anchor="middle" font-size="12" font-weight="700" fill="#1e293b">[EOS]</text>
+<text x="1053.5" y="744.0" text-anchor="middle" font-size="11" font-weight="600" fill="#64748b" font-family="'SF Mono',Menlo,Consolas,monospace">−0.5</text>
+<line x1="845.0" y1="762" x2="845.0" y2="772" stroke="#64748b" stroke-width="1.8" marker-end="url(#ah)"/>
+<rect x="572" y="774" width="265" height="56" rx="8" fill="#f0fdfa" stroke="#99f6e4" stroke-width="1.5"/>
+<text x="704.5" y="796.0" text-anchor="middle" font-size="13" font-weight="700" fill="#0f766e">Softmax → probabilities</text>
+<text x="704.5" y="816.0" text-anchor="middle" font-size="11" font-weight="500" fill="#64748b">shape stays 1 × V</text>
+<line x1="839" y1="802" x2="851" y2="802" stroke="#64748b" stroke-width="1.8" marker-end="url(#ah)"/>
+<rect x="853" y="774" width="265" height="56" rx="8" fill="#f0fdf4" stroke="#166534" stroke-width="1.8"/>
+<text x="985.5" y="796.0" text-anchor="middle" font-size="13" font-weight="700" fill="#166534">Pick highest: “en” (0.73)</text>
+<text x="985.5" y="816.0" text-anchor="middle" font-size="11" font-weight="500" fill="#64748b">append, run decoder again</text>
+<rect x="20" y="920" width="1160" height="76" rx="12" fill="#ffffff" stroke="#e2e8f0" stroke-width="1.5"/>
+<text x="600.0" y="948.0" text-anchor="middle" font-size="13" font-weight="600" fill="#1e293b">tokens → emb+pos → encoder / decoder layers → score all of V → softmax → pick one</text>
+<text x="600.0" y="974.0" text-anchor="middle" font-size="12" font-weight="500" fill="#64748b">At each step the model selects one token from vocabulary V.</text>
+</svg>
